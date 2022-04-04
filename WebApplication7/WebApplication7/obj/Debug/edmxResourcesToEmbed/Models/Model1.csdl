@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="WebAppDBModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Address">
+    <Key>
+      <PropertyRef Name="IDAddress" />
+    </Key>
+    <Property Name="IDAddress" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="City" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Country" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="MoreInfo" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="NameAddress" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Number" Type="Int32" Nullable="false" />
+    <Property Name="PostalCode" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Region" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Street" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Customer" Relationship="WebAppDBModel.CustomerAddress" FromRole="Address" ToRole="Customer" />
+    <Property Name="CustomerCPF" Type="String" Nullable="false" MaxLength="450" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="Customer">
+    <Key>
+      <PropertyRef Name="CPF" />
+    </Key>
+    <Property Name="CPF" Type="String" MaxLength="450" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Date" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Id" Type="Int32" Nullable="false" />
+    <Property Name="LinkFacebook" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="LinkInstagram" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="LinkLinkedin" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="LinkTwitter" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Name" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="RG" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Phones" Relationship="WebAppDBModel.CustomerPhone" FromRole="Customer" ToRole="Phone" />
+    <NavigationProperty Name="Addresses" Relationship="WebAppDBModel.CustomerAddress" FromRole="Customer" ToRole="Address" />
+  </EntityType>
+  <EntityType Name="Phone">
+    <Key>
+      <PropertyRef Name="IDPhone" />
+    </Key>
+    <Property Name="IDPhone" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="IsPrivate" Type="Boolean" Nullable="false" />
+    <Property Name="NamePhone" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="PhoneNumber" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Customer" Relationship="WebAppDBModel.CustomerPhone" FromRole="Phone" ToRole="Customer" />
+    <Property Name="CustomerCPF" Type="String" Nullable="false" MaxLength="450" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityContainer Name="WebAppDBEntities1" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Addresses" EntityType="Self.Address" />
+    <EntitySet Name="Customers" EntityType="Self.Customer" />
+    <EntitySet Name="Phones" EntityType="Self.Phone" />
+    <AssociationSet Name="CustomerPhone" Association="WebAppDBModel.CustomerPhone">
+      <End Role="Customer" EntitySet="Customers" />
+      <End Role="Phone" EntitySet="Phones" />
+    </AssociationSet>
+    <AssociationSet Name="CustomerAddress" Association="WebAppDBModel.CustomerAddress">
+      <End Role="Customer" EntitySet="Customers" />
+      <End Role="Address" EntitySet="Addresses" />
+    </AssociationSet>
+  </EntityContainer>
+  <Association Name="CustomerPhone">
+    <End Type="WebAppDBModel.Customer" Role="Customer" Multiplicity="1" />
+    <End Type="WebAppDBModel.Phone" Role="Phone" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Customer">
+        <PropertyRef Name="CPF" />
+      </Principal>
+      <Dependent Role="Phone">
+        <PropertyRef Name="CustomerCPF" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="CustomerAddress">
+    <End Type="WebAppDBModel.Customer" Role="Customer" Multiplicity="1" />
+    <End Type="WebAppDBModel.Address" Role="Address" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Customer">
+        <PropertyRef Name="CPF" />
+      </Principal>
+      <Dependent Role="Address">
+        <PropertyRef Name="CustomerCPF" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

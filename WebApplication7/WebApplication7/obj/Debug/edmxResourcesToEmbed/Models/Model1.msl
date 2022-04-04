@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="WebAppDBModelStoreContainer" CdmEntityContainer="WebAppDBEntities1">
+    <EntitySetMapping Name="Addresses">
+      <EntityTypeMapping TypeName="WebAppDBModel.Address">
+        <MappingFragment StoreEntitySet="Address">
+          <ScalarProperty Name="IDAddress" ColumnName="IDAddress" />
+          <ScalarProperty Name="City" ColumnName="City" />
+          <ScalarProperty Name="Country" ColumnName="Country" />
+          <ScalarProperty Name="MoreInfo" ColumnName="MoreInfo" />
+          <ScalarProperty Name="NameAddress" ColumnName="NameAddress" />
+          <ScalarProperty Name="Number" ColumnName="Number" />
+          <ScalarProperty Name="PostalCode" ColumnName="PostalCode" />
+          <ScalarProperty Name="Region" ColumnName="Region" />
+          <ScalarProperty Name="Street" ColumnName="Street" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Customers">
+      <EntityTypeMapping TypeName="WebAppDBModel.Customer">
+        <MappingFragment StoreEntitySet="Customer">
+          <ScalarProperty Name="CPF" ColumnName="CPF" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="LinkFacebook" ColumnName="LinkFacebook" />
+          <ScalarProperty Name="LinkInstagram" ColumnName="LinkInstagram" />
+          <ScalarProperty Name="LinkLinkedin" ColumnName="LinkLinkedin" />
+          <ScalarProperty Name="LinkTwitter" ColumnName="LinkTwitter" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="RG" ColumnName="RG" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Phones">
+      <EntityTypeMapping TypeName="WebAppDBModel.Phone">
+        <MappingFragment StoreEntitySet="Phone">
+          <ScalarProperty Name="IDPhone" ColumnName="IDPhone" />
+          <ScalarProperty Name="IsPrivate" ColumnName="IsPrivate" />
+          <ScalarProperty Name="NamePhone" ColumnName="NamePhone" />
+          <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

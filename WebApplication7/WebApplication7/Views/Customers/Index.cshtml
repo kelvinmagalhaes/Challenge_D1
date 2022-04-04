@@ -1,0 +1,149 @@
+﻿@using PagedList.Mvc;
+@model PagedList.IPagedList<WebApplication7.Models.Customer>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2><center>Customers</center></h2>
+
+@using (Html.BeginForm())
+{
+    <p>
+        <center>
+            Search by Name<br /> 
+            @Html.TextBox("SearchString")
+            <input type="submit" value="Buscar"/>
+        </center>
+    </p>
+}
+<table class="table" style="width:50%">
+    <tr>
+        <th>
+            Name
+        </th>
+        <th>
+            RG
+        </th>
+        <th>
+            CPF
+        </th>
+        <th>
+            Id
+        </th>
+        <th>
+            Date
+        </th>
+        <th>
+            Facebook
+        </th>
+        <th>
+            Instagram
+        </th>
+        <th>
+            LinkedIn
+        </th>
+        <th>
+            Twitter
+        </th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.RG)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CPF)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Id)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Date)
+        </td>
+
+        <td>
+            @Html.DisplayFor(modelItem => item.LinkFacebook)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.LinkInstagram)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.LinkLinkedin)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.LinkTwitter)
+        </td>
+        <td>
+            <a href="/Phones/Index/@item.CPF" value="@item.CPF" title="Send" class="btn btn-info">
+                <span class="glyphicon glyphicon-phone" aria-hidden="true"></span>
+                
+            </a>
+            <a href="/Addresses/Index/@item.CPF" value="@item.CPF" id="teste" title="Send" class="btn btn-info">
+                <span class="glyphicon glyphicon-home" aria-hidden="true"></span>
+                
+            </a>
+
+            <a href="/Customers/Edit/@item.CPF" title="Send" class="btn btn-info">
+                <span class="glyphicon glyphicon-edit" aria-hidden="true"></span>
+                
+            </a>
+
+            <a href="/Customers/Details/@item.CPF" title="Send" class="btn btn-info">
+                <span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>
+         
+            </a>
+
+            <a href="/Customers/Delete/@item.CPF" title="Send" class="btn btn-info">
+                <span class="glyphicon glyphicon-erase" aria-hidden="true"></span>
+                
+            </a>
+
+        </td>
+    </tr>
+    }
+
+</table>
+<p>
+    <center>
+        <a href="/Customers/Create" title="Send" class="btn btn-info">
+            <span class="glyphicon glyphicon-pencil" aria-hidden="true"></span>
+            Create New
+        </a>
+    </center>
+</p>
+<div>
+    <center>
+        Page @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber) of @Model.PageCount
+        @if (Model.HasPreviousPage)
+        {
+            @Html.ActionLink("<<", "Index", new { page = 1, })
+            @Html.Raw(" ");
+            @Html.ActionLink("< Anterior", "Index", new { page = Model.PageNumber - 1 })
+        }
+        else
+        {
+            @:<<
+            @Html.Raw(" ");
+            @:< Anterior
+        }
+
+        @if (Model.HasNextPage)
+        {
+            @Html.ActionLink("Próxima >", "Index", new { page = Model.PageNumber + 1 })
+            @Html.Raw(" ");
+            @Html.ActionLink(">>", "Index", new { page = Model.PageCount })
+        }
+        else
+        {
+            @:Proxima >
+            @Html.Raw(" ");
+            @:>>
+        }
+    </center>
+</div>

@@ -1,0 +1,88 @@
+﻿@model WebApplication7.Models.Customer
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>Customer</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Date)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Date)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Id)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Id)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.LinkFacebook)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.LinkFacebook)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.LinkInstagram)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.LinkInstagram)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.LinkLinkedin)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.LinkLinkedin)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.LinkTwitter)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.LinkTwitter)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.RG)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.RG)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    }
+</div>

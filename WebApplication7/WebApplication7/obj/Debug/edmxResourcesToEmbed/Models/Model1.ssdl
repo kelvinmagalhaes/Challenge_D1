@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="WebAppDBModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Address">
+    <Key>
+      <PropertyRef Name="IDAddress" />
+    </Key>
+    <Property Name="IDAddress" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="CPFCustomer" Type="nvarchar" MaxLength="450" />
+    <Property Name="City" Type="nvarchar(max)" />
+    <Property Name="Country" Type="nvarchar(max)" />
+    <Property Name="MoreInfo" Type="nvarchar(max)" />
+    <Property Name="NameAddress" Type="nvarchar(max)" />
+    <Property Name="Number" Type="int" Nullable="false" />
+    <Property Name="PostalCode" Type="nvarchar(max)" />
+    <Property Name="Region" Type="nvarchar(max)" />
+    <Property Name="Street" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="Customer">
+    <Key>
+      <PropertyRef Name="CPF" />
+    </Key>
+    <Property Name="CPF" Type="nvarchar" MaxLength="450" Nullable="false" />
+    <Property Name="Date" Type="nvarchar(max)" />
+    <Property Name="Id" Type="int" Nullable="false" />
+    <Property Name="LinkFacebook" Type="nvarchar(max)" />
+    <Property Name="LinkInstagram" Type="nvarchar(max)" />
+    <Property Name="LinkLinkedin" Type="nvarchar(max)" />
+    <Property Name="LinkTwitter" Type="nvarchar(max)" />
+    <Property Name="Name" Type="nvarchar(max)" />
+    <Property Name="RG" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="Phone">
+    <Key>
+      <PropertyRef Name="IDPhone" />
+    </Key>
+    <Property Name="IDPhone" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="CPFCustomer" Type="nvarchar" MaxLength="450" />
+    <Property Name="IsPrivate" Type="bit" Nullable="false" />
+    <Property Name="NamePhone" Type="nvarchar(max)" />
+    <Property Name="PhoneNumber" Type="nvarchar(max)" />
+  </EntityType>
+  <Association Name="FK_Address_Customer_CPFCustomer">
+    <End Role="Customer" Type="Self.Customer" Multiplicity="0..1" />
+    <End Role="Address" Type="Self.Address" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Customer">
+        <PropertyRef Name="CPF" />
+      </Principal>
+      <Dependent Role="Address">
+        <PropertyRef Name="CPFCustomer" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Phone_Customer_CPFCustomer">
+    <End Role="Customer" Type="Self.Customer" Multiplicity="0..1" />
+    <End Role="Phone" Type="Self.Phone" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Customer">
+        <PropertyRef Name="CPF" />
+      </Principal>
+      <Dependent Role="Phone">
+        <PropertyRef Name="CPFCustomer" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="WebAppDBModelStoreContainer">
+    <EntitySet Name="Address" EntityType="Self.Address" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Customer" EntityType="Self.Customer" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Phone" EntityType="Self.Phone" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_Address_Customer_CPFCustomer" Association="Self.FK_Address_Customer_CPFCustomer">
+      <End Role="Customer" EntitySet="Customer" />
+      <End Role="Address" EntitySet="Address" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Phone_Customer_CPFCustomer" Association="Self.FK_Phone_Customer_CPFCustomer">
+      <End Role="Customer" EntitySet="Customer" />
+      <End Role="Phone" EntitySet="Phone" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

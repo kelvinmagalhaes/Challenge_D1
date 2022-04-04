@@ -1,0 +1,98 @@
+﻿@model WebApplication7.Models.Customer
+
+@{
+    ViewBag.Title = "Details";
+}
+
+
+<h2>Details</h2>
+<div>
+    <h4>Customer</h4>
+    <hr />
+    </center></p>
+   
+        <p>
+            <center>
+                @Html.ActionLink("Find", "Find", new { CPF = Model.CPF })
+            </center>
+        </p>
+   
+    <dl class="dl-horizontal">
+            <dt>
+                @Html.DisplayNameFor(model => model.Name)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Name)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.RG)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.RG)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.CPF)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.CPF)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.Date)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Date)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.Id)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Id)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.LinkFacebook)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.LinkFacebook)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.LinkInstagram)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.LinkInstagram)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.LinkLinkedin)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.LinkLinkedin)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.LinkTwitter)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.LinkTwitter)
+            </dd>
+        </dl>
+
+    </div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.CPF }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
