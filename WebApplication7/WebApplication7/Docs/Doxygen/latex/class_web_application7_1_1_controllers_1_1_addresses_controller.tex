@@ -1,0 +1,197 @@
+\hypertarget{class_web_application7_1_1_controllers_1_1_addresses_controller}{}\doxysection{Web\+Application7.\+Controllers.\+Addresses\+Controller Class Reference}
+\label{class_web_application7_1_1_controllers_1_1_addresses_controller}\index{WebApplication7.Controllers.AddressesController@{WebApplication7.Controllers.AddressesController}}
+
+
+Controller for manipulations in table Address  
+
+
+Inheritance diagram for Web\+Application7.\+Controllers.\+Addresses\+Controller\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_web_application7_1_1_controllers_1_1_addresses_controller}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+Action\+Result \mbox{\hyperlink{class_web_application7_1_1_controllers_1_1_addresses_controller_a4e230bb23c37d98d5ff6dd3b035eeeeb}{Index}} (string search\+String)
+\begin{DoxyCompactList}\small\item\em Controller index address screen \end{DoxyCompactList}\item 
+Action\+Result \mbox{\hyperlink{class_web_application7_1_1_controllers_1_1_addresses_controller_ab373e0dce5a86517e56c1600d8fbac75}{Details}} (int? id)
+\begin{DoxyCompactList}\small\item\em Controler details address screen \end{DoxyCompactList}\item 
+Action\+Result \mbox{\hyperlink{class_web_application7_1_1_controllers_1_1_addresses_controller_a2203feec93da7e573dfbde1fb930ab69}{Create}} ()
+\begin{DoxyCompactList}\small\item\em Controller create address scren \end{DoxyCompactList}\item 
+Action\+Result \mbox{\hyperlink{class_web_application7_1_1_controllers_1_1_addresses_controller_a553b55067c3c85ce40dae60523b361fb}{Create}} (\mbox{[}Bind(Include=\char`\"{}IDAddress,CPFCustomer,City,Country,More\+Info,Name\+Address,Number,Postal\+Code,Region,Street\char`\"{})\mbox{]} Address address)
+\begin{DoxyCompactList}\small\item\em Controller validade create address screen \end{DoxyCompactList}\item 
+Action\+Result \mbox{\hyperlink{class_web_application7_1_1_controllers_1_1_addresses_controller_ac699944a846844693fca0d454860d7ed}{Edit}} (int? id)
+\begin{DoxyCompactList}\small\item\em Controller edit address screen \end{DoxyCompactList}\item 
+Action\+Result \mbox{\hyperlink{class_web_application7_1_1_controllers_1_1_addresses_controller_ad6cb71cdb2e467061597d4e436f27ca8}{Edit}} (\mbox{[}Bind(Include=\char`\"{}IDAddress,CPFCustomer,City,Country,More\+Info,Name\+Address,Number,Postal\+Code,Region,Street\char`\"{})\mbox{]} Address address)
+\begin{DoxyCompactList}\small\item\em Controller validate edit address screen \end{DoxyCompactList}\item 
+Action\+Result \mbox{\hyperlink{class_web_application7_1_1_controllers_1_1_addresses_controller_aa2906a3d62fb91b35b4f8e9f27e3726c}{Delete}} (int? id)
+\begin{DoxyCompactList}\small\item\em Controller delete address screen \end{DoxyCompactList}\item 
+Action\+Result \mbox{\hyperlink{class_web_application7_1_1_controllers_1_1_addresses_controller_a4e3e361ec9df411ce22f5f41a5c5b2f1}{Delete\+Confirmed}} (int id)
+\begin{DoxyCompactList}\small\item\em Controller validade delete address screen \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+override void \mbox{\hyperlink{class_web_application7_1_1_controllers_1_1_addresses_controller_a3db089d7925d63d472446cb2c3fa6484}{Dispose}} (bool disposing)
+\begin{DoxyCompactList}\small\item\em Dispose object db \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Controller for manipulations in table Address 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_web_application7_1_1_controllers_1_1_addresses_controller_a2203feec93da7e573dfbde1fb930ab69}\label{class_web_application7_1_1_controllers_1_1_addresses_controller_a2203feec93da7e573dfbde1fb930ab69}} 
+\index{WebApplication7.Controllers.AddressesController@{WebApplication7.Controllers.AddressesController}!Create@{Create}}
+\index{Create@{Create}!WebApplication7.Controllers.AddressesController@{WebApplication7.Controllers.AddressesController}}
+\doxysubsubsection{\texorpdfstring{Create()}{Create()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily Action\+Result Web\+Application7.\+Controllers.\+Addresses\+Controller.\+Create (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Controller create address scren 
+
+\begin{DoxyReturn}{Returns}
+Address created
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_web_application7_1_1_controllers_1_1_addresses_controller_a553b55067c3c85ce40dae60523b361fb}\label{class_web_application7_1_1_controllers_1_1_addresses_controller_a553b55067c3c85ce40dae60523b361fb}} 
+\index{WebApplication7.Controllers.AddressesController@{WebApplication7.Controllers.AddressesController}!Create@{Create}}
+\index{Create@{Create}!WebApplication7.Controllers.AddressesController@{WebApplication7.Controllers.AddressesController}}
+\doxysubsubsection{\texorpdfstring{Create()}{Create()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily Action\+Result Web\+Application7.\+Controllers.\+Addresses\+Controller.\+Create (\begin{DoxyParamCaption}\item[{\mbox{[}\+Bind(\+Include = \char`\"{}\+IDAddress,\+CPFCustomer,\+City,\+Country,\+More\+Info,\+Name\+Address,\+Number,\+Postal\+Code,\+Region,\+Street\char`\"{})\mbox{]} \mbox{\hyperlink{class_web_application7_1_1_models_1_1_address}{Address}}}]{address }\end{DoxyParamCaption})}
+
+
+
+Controller validade create address screen 
+
+
+\begin{DoxyParams}{Parameters}
+{\em address} & value address\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+address
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_web_application7_1_1_controllers_1_1_addresses_controller_aa2906a3d62fb91b35b4f8e9f27e3726c}\label{class_web_application7_1_1_controllers_1_1_addresses_controller_aa2906a3d62fb91b35b4f8e9f27e3726c}} 
+\index{WebApplication7.Controllers.AddressesController@{WebApplication7.Controllers.AddressesController}!Delete@{Delete}}
+\index{Delete@{Delete}!WebApplication7.Controllers.AddressesController@{WebApplication7.Controllers.AddressesController}}
+\doxysubsubsection{\texorpdfstring{Delete()}{Delete()}}
+{\footnotesize\ttfamily Action\+Result Web\+Application7.\+Controllers.\+Addresses\+Controller.\+Delete (\begin{DoxyParamCaption}\item[{int?}]{id }\end{DoxyParamCaption})}
+
+
+
+Controller delete address screen 
+
+
+\begin{DoxyParams}{Parameters}
+{\em id} & Primary\+Key\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+validate address
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_web_application7_1_1_controllers_1_1_addresses_controller_a4e3e361ec9df411ce22f5f41a5c5b2f1}\label{class_web_application7_1_1_controllers_1_1_addresses_controller_a4e3e361ec9df411ce22f5f41a5c5b2f1}} 
+\index{WebApplication7.Controllers.AddressesController@{WebApplication7.Controllers.AddressesController}!DeleteConfirmed@{DeleteConfirmed}}
+\index{DeleteConfirmed@{DeleteConfirmed}!WebApplication7.Controllers.AddressesController@{WebApplication7.Controllers.AddressesController}}
+\doxysubsubsection{\texorpdfstring{DeleteConfirmed()}{DeleteConfirmed()}}
+{\footnotesize\ttfamily Action\+Result Web\+Application7.\+Controllers.\+Addresses\+Controller.\+Delete\+Confirmed (\begin{DoxyParamCaption}\item[{int}]{id }\end{DoxyParamCaption})}
+
+
+
+Controller validade delete address screen 
+
+
+\begin{DoxyParams}{Parameters}
+{\em id} & Primary\+Key\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Addresses list updated
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_web_application7_1_1_controllers_1_1_addresses_controller_ab373e0dce5a86517e56c1600d8fbac75}\label{class_web_application7_1_1_controllers_1_1_addresses_controller_ab373e0dce5a86517e56c1600d8fbac75}} 
+\index{WebApplication7.Controllers.AddressesController@{WebApplication7.Controllers.AddressesController}!Details@{Details}}
+\index{Details@{Details}!WebApplication7.Controllers.AddressesController@{WebApplication7.Controllers.AddressesController}}
+\doxysubsubsection{\texorpdfstring{Details()}{Details()}}
+{\footnotesize\ttfamily Action\+Result Web\+Application7.\+Controllers.\+Addresses\+Controller.\+Details (\begin{DoxyParamCaption}\item[{int?}]{id }\end{DoxyParamCaption})}
+
+
+
+Controler details address screen 
+
+
+\begin{DoxyParams}{Parameters}
+{\em id} & Primary\+Key\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+An address infos
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_web_application7_1_1_controllers_1_1_addresses_controller_a3db089d7925d63d472446cb2c3fa6484}\label{class_web_application7_1_1_controllers_1_1_addresses_controller_a3db089d7925d63d472446cb2c3fa6484}} 
+\index{WebApplication7.Controllers.AddressesController@{WebApplication7.Controllers.AddressesController}!Dispose@{Dispose}}
+\index{Dispose@{Dispose}!WebApplication7.Controllers.AddressesController@{WebApplication7.Controllers.AddressesController}}
+\doxysubsubsection{\texorpdfstring{Dispose()}{Dispose()}}
+{\footnotesize\ttfamily override void Web\+Application7.\+Controllers.\+Addresses\+Controller.\+Dispose (\begin{DoxyParamCaption}\item[{bool}]{disposing }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Dispose object db 
+
+
+\begin{DoxyParams}{Parameters}
+{\em disposing} & dispose confirmed.\\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_web_application7_1_1_controllers_1_1_addresses_controller_ad6cb71cdb2e467061597d4e436f27ca8}\label{class_web_application7_1_1_controllers_1_1_addresses_controller_ad6cb71cdb2e467061597d4e436f27ca8}} 
+\index{WebApplication7.Controllers.AddressesController@{WebApplication7.Controllers.AddressesController}!Edit@{Edit}}
+\index{Edit@{Edit}!WebApplication7.Controllers.AddressesController@{WebApplication7.Controllers.AddressesController}}
+\doxysubsubsection{\texorpdfstring{Edit()}{Edit()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily Action\+Result Web\+Application7.\+Controllers.\+Addresses\+Controller.\+Edit (\begin{DoxyParamCaption}\item[{\mbox{[}\+Bind(\+Include = \char`\"{}\+IDAddress,\+CPFCustomer,\+City,\+Country,\+More\+Info,\+Name\+Address,\+Number,\+Postal\+Code,\+Region,\+Street\char`\"{})\mbox{]} \mbox{\hyperlink{class_web_application7_1_1_models_1_1_address}{Address}}}]{address }\end{DoxyParamCaption})}
+
+
+
+Controller validate edit address screen 
+
+
+\begin{DoxyParams}{Parameters}
+{\em address} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Addresses list updated
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_web_application7_1_1_controllers_1_1_addresses_controller_ac699944a846844693fca0d454860d7ed}\label{class_web_application7_1_1_controllers_1_1_addresses_controller_ac699944a846844693fca0d454860d7ed}} 
+\index{WebApplication7.Controllers.AddressesController@{WebApplication7.Controllers.AddressesController}!Edit@{Edit}}
+\index{Edit@{Edit}!WebApplication7.Controllers.AddressesController@{WebApplication7.Controllers.AddressesController}}
+\doxysubsubsection{\texorpdfstring{Edit()}{Edit()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily Action\+Result Web\+Application7.\+Controllers.\+Addresses\+Controller.\+Edit (\begin{DoxyParamCaption}\item[{int?}]{id }\end{DoxyParamCaption})}
+
+
+
+Controller edit address screen 
+
+
+\begin{DoxyParams}{Parameters}
+{\em id} & Primary\+Key\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Screen for edition infos
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_web_application7_1_1_controllers_1_1_addresses_controller_a4e230bb23c37d98d5ff6dd3b035eeeeb}\label{class_web_application7_1_1_controllers_1_1_addresses_controller_a4e230bb23c37d98d5ff6dd3b035eeeeb}} 
+\index{WebApplication7.Controllers.AddressesController@{WebApplication7.Controllers.AddressesController}!Index@{Index}}
+\index{Index@{Index}!WebApplication7.Controllers.AddressesController@{WebApplication7.Controllers.AddressesController}}
+\doxysubsubsection{\texorpdfstring{Index()}{Index()}}
+{\footnotesize\ttfamily Action\+Result Web\+Application7.\+Controllers.\+Addresses\+Controller.\+Index (\begin{DoxyParamCaption}\item[{string}]{search\+String }\end{DoxyParamCaption})}
+
+
+
+Controller index address screen 
+
+\begin{DoxyReturn}{Returns}
+Adresses list
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/\+Documents/\+Git\+Hub/\+Challenge\+\_\+\+D1/\+Web\+Application7/\+Web\+Application7/\+Controllers/Addresses\+Controller.\+cs\end{DoxyCompactItemize}

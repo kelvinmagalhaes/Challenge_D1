@@ -1,0 +1,231 @@
+\hypertarget{class_web_application7_1_1_controllers_1_1_customers_controller}{}\doxysection{Web\+Application7.\+Controllers.\+Customers\+Controller Class Reference}
+\label{class_web_application7_1_1_controllers_1_1_customers_controller}\index{WebApplication7.Controllers.CustomersController@{WebApplication7.Controllers.CustomersController}}
+
+
+Controller for manipulations in table Customers  
+
+
+Inheritance diagram for Web\+Application7.\+Controllers.\+Customers\+Controller\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_web_application7_1_1_controllers_1_1_customers_controller}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+Action\+Result \mbox{\hyperlink{class_web_application7_1_1_controllers_1_1_customers_controller_af1197ad348ed00b84d9cac0575697d09}{Index}} (string search\+String, int? page)
+\begin{DoxyCompactList}\small\item\em Controller index customer screen \end{DoxyCompactList}\item 
+Action\+Result \mbox{\hyperlink{class_web_application7_1_1_controllers_1_1_customers_controller_a81f50f6898fee97522e9ee575341ccf0}{Details}} (string id)
+\begin{DoxyCompactList}\small\item\em Controler details customer screen \end{DoxyCompactList}\item 
+Action\+Result \mbox{\hyperlink{class_web_application7_1_1_controllers_1_1_customers_controller_abef2cce24f249104011b52dae6665ffd}{Find}} (string CPF)
+\begin{DoxyCompactList}\small\item\em Controler find ~\newline
+ \end{DoxyCompactList}\item 
+Action\+Result \mbox{\hyperlink{class_web_application7_1_1_controllers_1_1_customers_controller_a82dcbbf6de5d55181586437c0ae1ee4a}{Create}} ()
+\begin{DoxyCompactList}\small\item\em Controller validade create address screen \end{DoxyCompactList}\item 
+Action\+Result \mbox{\hyperlink{class_web_application7_1_1_controllers_1_1_customers_controller_ae62d679054af6046df888a64f9671aba}{Create}} (\mbox{[}Bind(Include=\char`\"{}CPF,Date,Id,Link\+Facebook,Link\+Instagram,Link\+Linkedin,Link\+Twitter,Name,RG\char`\"{})\mbox{]} Customer customer)
+\begin{DoxyCompactList}\small\item\em Controller validade create address screen \end{DoxyCompactList}\item 
+Action\+Result \mbox{\hyperlink{class_web_application7_1_1_controllers_1_1_customers_controller_a549c079de495b3cdebd8c42748b64b64}{Edit}} (string id)
+\begin{DoxyCompactList}\small\item\em Controller edit customers screen \end{DoxyCompactList}\item 
+Action\+Result \mbox{\hyperlink{class_web_application7_1_1_controllers_1_1_customers_controller_a24359c46428e1458a3049ec238696fa8}{Edit}} (\mbox{[}Bind(Include=\char`\"{}CPF,Date,Id,Link\+Facebook,Link\+Instagram,Link\+Linkedin,Link\+Twitter,Name,RG\char`\"{})\mbox{]} Customer customer)
+\begin{DoxyCompactList}\small\item\em Controller validate edit customers screen \end{DoxyCompactList}\item 
+Action\+Result \mbox{\hyperlink{class_web_application7_1_1_controllers_1_1_customers_controller_af637caad57da34cf240cff709d78a22f}{Delete}} (string id)
+\begin{DoxyCompactList}\small\item\em Controller delete customers screen \end{DoxyCompactList}\item 
+Action\+Result \mbox{\hyperlink{class_web_application7_1_1_controllers_1_1_customers_controller_aa9e538f02d908e5cb1c264e665649270}{Delete\+Confirmed}} (string id)
+\begin{DoxyCompactList}\small\item\em Controller validade delete customers screen \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+override void \mbox{\hyperlink{class_web_application7_1_1_controllers_1_1_customers_controller_a96f345e5209c59a07e1c8e556aa4cdf0}{Dispose}} (bool disposing)
+\begin{DoxyCompactList}\small\item\em Dispose object db \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Controller for manipulations in table Customers 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_web_application7_1_1_controllers_1_1_customers_controller_a82dcbbf6de5d55181586437c0ae1ee4a}\label{class_web_application7_1_1_controllers_1_1_customers_controller_a82dcbbf6de5d55181586437c0ae1ee4a}} 
+\index{WebApplication7.Controllers.CustomersController@{WebApplication7.Controllers.CustomersController}!Create@{Create}}
+\index{Create@{Create}!WebApplication7.Controllers.CustomersController@{WebApplication7.Controllers.CustomersController}}
+\doxysubsubsection{\texorpdfstring{Create()}{Create()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily Action\+Result Web\+Application7.\+Controllers.\+Customers\+Controller.\+Create (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Controller validade create address screen 
+
+
+\begin{DoxyParams}{Parameters}
+{\em customer} & value address\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+customer
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_web_application7_1_1_controllers_1_1_customers_controller_ae62d679054af6046df888a64f9671aba}\label{class_web_application7_1_1_controllers_1_1_customers_controller_ae62d679054af6046df888a64f9671aba}} 
+\index{WebApplication7.Controllers.CustomersController@{WebApplication7.Controllers.CustomersController}!Create@{Create}}
+\index{Create@{Create}!WebApplication7.Controllers.CustomersController@{WebApplication7.Controllers.CustomersController}}
+\doxysubsubsection{\texorpdfstring{Create()}{Create()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily Action\+Result Web\+Application7.\+Controllers.\+Customers\+Controller.\+Create (\begin{DoxyParamCaption}\item[{\mbox{[}\+Bind(\+Include = \char`\"{}\+CPF,\+Date,\+Id,\+Link\+Facebook,\+Link\+Instagram,\+Link\+Linkedin,\+Link\+Twitter,\+Name,\+RG\char`\"{})\mbox{]} \mbox{\hyperlink{class_web_application7_1_1_models_1_1_customer}{Customer}}}]{customer }\end{DoxyParamCaption})}
+
+
+
+Controller validade create address screen 
+
+
+\begin{DoxyParams}{Parameters}
+{\em customer} & value address\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+customer
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_web_application7_1_1_controllers_1_1_customers_controller_af637caad57da34cf240cff709d78a22f}\label{class_web_application7_1_1_controllers_1_1_customers_controller_af637caad57da34cf240cff709d78a22f}} 
+\index{WebApplication7.Controllers.CustomersController@{WebApplication7.Controllers.CustomersController}!Delete@{Delete}}
+\index{Delete@{Delete}!WebApplication7.Controllers.CustomersController@{WebApplication7.Controllers.CustomersController}}
+\doxysubsubsection{\texorpdfstring{Delete()}{Delete()}}
+{\footnotesize\ttfamily Action\+Result Web\+Application7.\+Controllers.\+Customers\+Controller.\+Delete (\begin{DoxyParamCaption}\item[{string}]{id }\end{DoxyParamCaption})}
+
+
+
+Controller delete customers screen 
+
+
+\begin{DoxyParams}{Parameters}
+{\em id} & Primary\+Key\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Customers list updated
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_web_application7_1_1_controllers_1_1_customers_controller_aa9e538f02d908e5cb1c264e665649270}\label{class_web_application7_1_1_controllers_1_1_customers_controller_aa9e538f02d908e5cb1c264e665649270}} 
+\index{WebApplication7.Controllers.CustomersController@{WebApplication7.Controllers.CustomersController}!DeleteConfirmed@{DeleteConfirmed}}
+\index{DeleteConfirmed@{DeleteConfirmed}!WebApplication7.Controllers.CustomersController@{WebApplication7.Controllers.CustomersController}}
+\doxysubsubsection{\texorpdfstring{DeleteConfirmed()}{DeleteConfirmed()}}
+{\footnotesize\ttfamily Action\+Result Web\+Application7.\+Controllers.\+Customers\+Controller.\+Delete\+Confirmed (\begin{DoxyParamCaption}\item[{string}]{id }\end{DoxyParamCaption})}
+
+
+
+Controller validade delete customers screen 
+
+
+\begin{DoxyParams}{Parameters}
+{\em id} & Primary\+Key\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Customers list updated
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_web_application7_1_1_controllers_1_1_customers_controller_a81f50f6898fee97522e9ee575341ccf0}\label{class_web_application7_1_1_controllers_1_1_customers_controller_a81f50f6898fee97522e9ee575341ccf0}} 
+\index{WebApplication7.Controllers.CustomersController@{WebApplication7.Controllers.CustomersController}!Details@{Details}}
+\index{Details@{Details}!WebApplication7.Controllers.CustomersController@{WebApplication7.Controllers.CustomersController}}
+\doxysubsubsection{\texorpdfstring{Details()}{Details()}}
+{\footnotesize\ttfamily Action\+Result Web\+Application7.\+Controllers.\+Customers\+Controller.\+Details (\begin{DoxyParamCaption}\item[{string}]{id }\end{DoxyParamCaption})}
+
+
+
+Controler details customer screen 
+
+
+\begin{DoxyParams}{Parameters}
+{\em id} & Primary\+Key\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+An customer infos
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_web_application7_1_1_controllers_1_1_customers_controller_a96f345e5209c59a07e1c8e556aa4cdf0}\label{class_web_application7_1_1_controllers_1_1_customers_controller_a96f345e5209c59a07e1c8e556aa4cdf0}} 
+\index{WebApplication7.Controllers.CustomersController@{WebApplication7.Controllers.CustomersController}!Dispose@{Dispose}}
+\index{Dispose@{Dispose}!WebApplication7.Controllers.CustomersController@{WebApplication7.Controllers.CustomersController}}
+\doxysubsubsection{\texorpdfstring{Dispose()}{Dispose()}}
+{\footnotesize\ttfamily override void Web\+Application7.\+Controllers.\+Customers\+Controller.\+Dispose (\begin{DoxyParamCaption}\item[{bool}]{disposing }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Dispose object db 
+
+
+\begin{DoxyParams}{Parameters}
+{\em disposing} & dispose confirmed.\\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_web_application7_1_1_controllers_1_1_customers_controller_a24359c46428e1458a3049ec238696fa8}\label{class_web_application7_1_1_controllers_1_1_customers_controller_a24359c46428e1458a3049ec238696fa8}} 
+\index{WebApplication7.Controllers.CustomersController@{WebApplication7.Controllers.CustomersController}!Edit@{Edit}}
+\index{Edit@{Edit}!WebApplication7.Controllers.CustomersController@{WebApplication7.Controllers.CustomersController}}
+\doxysubsubsection{\texorpdfstring{Edit()}{Edit()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily Action\+Result Web\+Application7.\+Controllers.\+Customers\+Controller.\+Edit (\begin{DoxyParamCaption}\item[{\mbox{[}\+Bind(\+Include = \char`\"{}\+CPF,\+Date,\+Id,\+Link\+Facebook,\+Link\+Instagram,\+Link\+Linkedin,\+Link\+Twitter,\+Name,\+RG\char`\"{})\mbox{]} \mbox{\hyperlink{class_web_application7_1_1_models_1_1_customer}{Customer}}}]{customer }\end{DoxyParamCaption})}
+
+
+
+Controller validate edit customers screen 
+
+
+\begin{DoxyParams}{Parameters}
+{\em id} & Primary\+Key\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Screen for edition infos
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_web_application7_1_1_controllers_1_1_customers_controller_a549c079de495b3cdebd8c42748b64b64}\label{class_web_application7_1_1_controllers_1_1_customers_controller_a549c079de495b3cdebd8c42748b64b64}} 
+\index{WebApplication7.Controllers.CustomersController@{WebApplication7.Controllers.CustomersController}!Edit@{Edit}}
+\index{Edit@{Edit}!WebApplication7.Controllers.CustomersController@{WebApplication7.Controllers.CustomersController}}
+\doxysubsubsection{\texorpdfstring{Edit()}{Edit()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily Action\+Result Web\+Application7.\+Controllers.\+Customers\+Controller.\+Edit (\begin{DoxyParamCaption}\item[{string}]{id }\end{DoxyParamCaption})}
+
+
+
+Controller edit customers screen 
+
+
+\begin{DoxyParams}{Parameters}
+{\em id} & Primary\+Key\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Screen for edition infos
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_web_application7_1_1_controllers_1_1_customers_controller_abef2cce24f249104011b52dae6665ffd}\label{class_web_application7_1_1_controllers_1_1_customers_controller_abef2cce24f249104011b52dae6665ffd}} 
+\index{WebApplication7.Controllers.CustomersController@{WebApplication7.Controllers.CustomersController}!Find@{Find}}
+\index{Find@{Find}!WebApplication7.Controllers.CustomersController@{WebApplication7.Controllers.CustomersController}}
+\doxysubsubsection{\texorpdfstring{Find()}{Find()}}
+{\footnotesize\ttfamily Action\+Result Web\+Application7.\+Controllers.\+Customers\+Controller.\+Find (\begin{DoxyParamCaption}\item[{string}]{CPF }\end{DoxyParamCaption})}
+
+
+
+Controler find ~\newline
+ 
+
+
+\begin{DoxyParams}{Parameters}
+{\em CPF} & Primary\+Key\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Addresses list
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_web_application7_1_1_controllers_1_1_customers_controller_af1197ad348ed00b84d9cac0575697d09}\label{class_web_application7_1_1_controllers_1_1_customers_controller_af1197ad348ed00b84d9cac0575697d09}} 
+\index{WebApplication7.Controllers.CustomersController@{WebApplication7.Controllers.CustomersController}!Index@{Index}}
+\index{Index@{Index}!WebApplication7.Controllers.CustomersController@{WebApplication7.Controllers.CustomersController}}
+\doxysubsubsection{\texorpdfstring{Index()}{Index()}}
+{\footnotesize\ttfamily Action\+Result Web\+Application7.\+Controllers.\+Customers\+Controller.\+Index (\begin{DoxyParamCaption}\item[{string}]{search\+String,  }\item[{int?}]{page }\end{DoxyParamCaption})}
+
+
+
+Controller index customer screen 
+
+
+\begin{DoxyParams}{Parameters}
+{\em search\+String} & Name search\\
+\hline
+{\em page} & page index\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/\+Documents/\+Git\+Hub/\+Challenge\+\_\+\+D1/\+Web\+Application7/\+Web\+Application7/\+Controllers/Customers\+Controller.\+cs\end{DoxyCompactItemize}
