@@ -5,7 +5,7 @@ CRUD WebAppp : [Documentation](https://github.com/kelvinmagalhaes/Challenge_D1/t
 </p>
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/61787709/161664849-147b1ead-42cd-4a8c-b82d-5bad3d352234.png?raw=true" alt="Sublime's custom image"/>
+  <img src="https://user-images.githubusercontent.com/61787709/161667336-99f8fc9c-6c74-4a68-a660-9af0c4496435.png?raw=true" alt="Sublime's custom image"/>
 </p>
 
 <p align="center">
@@ -13,6 +13,5 @@ CRUD WebAppp : [Documentation](https://github.com/kelvinmagalhaes/Challenge_D1/t
 </p>
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/61787709/161667336-99f8fc9c-6c74-4a68-a660-9af0c4496435.png?raw=true" alt="Sublime's custom image"/>
+  <img src="https://user-images.githubusercontent.com/61787709/161667494-90310f7d-fcad-4d37-badc-3715e9e06248.pngraw=true" alt="Sublime's custom image"/>
 </p>
-
