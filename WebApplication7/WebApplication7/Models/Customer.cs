@@ -23,8 +23,10 @@ namespace WebApplication7.Models
         [StringLength(450)]
         public string CPF { get; set; }
 
+        //[Column(TypeName = "Date")]
         public string Date { get; set; }
 
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int Id { get; set; }
 
         public string LinkFacebook { get; set; }

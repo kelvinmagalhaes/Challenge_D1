@@ -1,0 +1,193 @@
+.TH "WebApplication7.Controllers.AddressesController" 3 "Mon Apr 4 2022" "WebApplication7" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+WebApplication7.Controllers.AddressesController \- Controller for manipulations in table Address  
+
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits Controller\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "ActionResult \fBIndex\fP (string searchString)"
+.br
+.RI "Controller index address screen "
+.ti -1c
+.RI "ActionResult \fBDetails\fP (int? id)"
+.br
+.RI "Controler details address screen "
+.ti -1c
+.RI "ActionResult \fBCreate\fP ()"
+.br
+.RI "Controller create address scren "
+.ti -1c
+.RI "ActionResult \fBCreate\fP ([Bind(Include='IDAddress,CPFCustomer,City,Country,MoreInfo,NameAddress,Number,PostalCode,Region,Street')] Address address)"
+.br
+.RI "Controller validade create address screen "
+.ti -1c
+.RI "ActionResult \fBEdit\fP (int? id)"
+.br
+.RI "Controller edit address screen "
+.ti -1c
+.RI "ActionResult \fBEdit\fP ([Bind(Include='IDAddress,CPFCustomer,City,Country,MoreInfo,NameAddress,Number,PostalCode,Region,Street')] Address address)"
+.br
+.RI "Controller validate edit address screen "
+.ti -1c
+.RI "ActionResult \fBDelete\fP (int? id)"
+.br
+.RI "Controller delete address screen "
+.ti -1c
+.RI "ActionResult \fBDeleteConfirmed\fP (int id)"
+.br
+.RI "Controller validade delete address screen "
+.in -1c
+.SS "Protected Member Functions"
+
+.in +1c
+.ti -1c
+.RI "override void \fBDispose\fP (bool disposing)"
+.br
+.RI "Dispose object db "
+.in -1c
+.SH "Detailed Description"
+.PP 
+Controller for manipulations in table Address 
+.SH "Member Function Documentation"
+.PP 
+.SS "ActionResult WebApplication7\&.Controllers\&.AddressesController\&.Create ()"
+
+.PP
+Controller create address scren 
+.PP
+\fBReturns\fP
+.RS 4
+Address created
+.RE
+.PP
+
+.SS "ActionResult WebApplication7\&.Controllers\&.AddressesController\&.Create ([Bind(Include = 'IDAddress,CPFCustomer,City,Country,MoreInfo,NameAddress,Number,PostalCode,Region,Street')] \fBAddress\fP address)"
+
+.PP
+Controller validade create address screen 
+.PP
+\fBParameters\fP
+.RS 4
+\fIaddress\fP value address
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+address
+.RE
+.PP
+
+.SS "ActionResult WebApplication7\&.Controllers\&.AddressesController\&.Delete (int? id)"
+
+.PP
+Controller delete address screen 
+.PP
+\fBParameters\fP
+.RS 4
+\fIid\fP PrimaryKey
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+validate address
+.RE
+.PP
+
+.SS "ActionResult WebApplication7\&.Controllers\&.AddressesController\&.DeleteConfirmed (int id)"
+
+.PP
+Controller validade delete address screen 
+.PP
+\fBParameters\fP
+.RS 4
+\fIid\fP PrimaryKey
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+Addresses list updated
+.RE
+.PP
+
+.SS "ActionResult WebApplication7\&.Controllers\&.AddressesController\&.Details (int? id)"
+
+.PP
+Controler details address screen 
+.PP
+\fBParameters\fP
+.RS 4
+\fIid\fP PrimaryKey
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+An address infos
+.RE
+.PP
+
+.SS "override void WebApplication7\&.Controllers\&.AddressesController\&.Dispose (bool disposing)\fC [protected]\fP"
+
+.PP
+Dispose object db 
+.PP
+\fBParameters\fP
+.RS 4
+\fIdisposing\fP dispose confirmed\&.
+.RE
+.PP
+
+.SS "ActionResult WebApplication7\&.Controllers\&.AddressesController\&.Edit ([Bind(Include = 'IDAddress,CPFCustomer,City,Country,MoreInfo,NameAddress,Number,PostalCode,Region,Street')] \fBAddress\fP address)"
+
+.PP
+Controller validate edit address screen 
+.PP
+\fBParameters\fP
+.RS 4
+\fIaddress\fP 
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+Addresses list updated
+.RE
+.PP
+
+.SS "ActionResult WebApplication7\&.Controllers\&.AddressesController\&.Edit (int? id)"
+
+.PP
+Controller edit address screen 
+.PP
+\fBParameters\fP
+.RS 4
+\fIid\fP PrimaryKey
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+Screen for edition infos
+.RE
+.PP
+
+.SS "ActionResult WebApplication7\&.Controllers\&.AddressesController\&.Index (string searchString)"
+
+.PP
+Controller index address screen 
+.PP
+\fBReturns\fP
+.RS 4
+Adresses list
+.RE
+.PP
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for WebApplication7 from the source code\&.

@@ -18,8 +18,6 @@ namespace WebApplication7.Models
         [StringLength(450)]
         public string CPFCustomer { get; set; }
 
-        public bool IsPrivate { get; set; }
-
         public string NamePhone { get; set; }
 
         public string PhoneNumber { get; set; }

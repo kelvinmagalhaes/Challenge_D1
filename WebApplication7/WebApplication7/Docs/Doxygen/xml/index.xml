@@ -1,0 +1,176 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.9.3" xml:lang="en-US">
+  <compound refid="class_web_application7_1_1_models_1_1_address" kind="class"><name>WebApplication7::Models::Address</name>
+    <member refid="class_web_application7_1_1_models_1_1_address_1aec52a91a63beacc9b74432177ecc81ca" kind="property"><name>IDAddress</name></member>
+    <member refid="class_web_application7_1_1_models_1_1_address_1ad23aad999dd13a8698cce47eb7bc4a8c" kind="property"><name>CPFCustomer</name></member>
+    <member refid="class_web_application7_1_1_models_1_1_address_1acf3a2b6dd013d288522f3d7bacc583d3" kind="property"><name>City</name></member>
+    <member refid="class_web_application7_1_1_models_1_1_address_1a0a19a66ad00a240b225d09d6a2de3d27" kind="property"><name>Country</name></member>
+    <member refid="class_web_application7_1_1_models_1_1_address_1a4ac53889aac4f1c1ca83dcb3548fbdd9" kind="property"><name>MoreInfo</name></member>
+    <member refid="class_web_application7_1_1_models_1_1_address_1ad6c4f5adebf54fdb6d251cdeafb62b56" kind="property"><name>NameAddress</name></member>
+    <member refid="class_web_application7_1_1_models_1_1_address_1a86bb3e5151da9a18ce9d793720fc7e4d" kind="property"><name>Number</name></member>
+    <member refid="class_web_application7_1_1_models_1_1_address_1a4b77900508072c47c05c68b876b74636" kind="property"><name>PostalCode</name></member>
+    <member refid="class_web_application7_1_1_models_1_1_address_1aa076a83b1cd92523009bb0a88cf66fc2" kind="property"><name>Region</name></member>
+    <member refid="class_web_application7_1_1_models_1_1_address_1a530b1b93305313b416f2dcec9f67b25b" kind="property"><name>Street</name></member>
+    <member refid="class_web_application7_1_1_models_1_1_address_1a23fdd0490e3e71b2f99df2e15bd995be" kind="property"><name>Customer</name></member>
+  </compound>
+  <compound refid="class_web_application7_1_1_controllers_1_1_addresses_controller" kind="class"><name>WebApplication7::Controllers::AddressesController</name>
+    <member refid="class_web_application7_1_1_controllers_1_1_addresses_controller_1abde864855c86f6f3b02f5ce90f238d11" kind="variable"><name>db</name></member>
+    <member refid="class_web_application7_1_1_controllers_1_1_addresses_controller_1a4e230bb23c37d98d5ff6dd3b035eeeeb" kind="function"><name>Index</name></member>
+    <member refid="class_web_application7_1_1_controllers_1_1_addresses_controller_1ab373e0dce5a86517e56c1600d8fbac75" kind="function"><name>Details</name></member>
+    <member refid="class_web_application7_1_1_controllers_1_1_addresses_controller_1a2203feec93da7e573dfbde1fb930ab69" kind="function"><name>Create</name></member>
+    <member refid="class_web_application7_1_1_controllers_1_1_addresses_controller_1a553b55067c3c85ce40dae60523b361fb" kind="function"><name>Create</name></member>
+    <member refid="class_web_application7_1_1_controllers_1_1_addresses_controller_1ac699944a846844693fca0d454860d7ed" kind="function"><name>Edit</name></member>
+    <member refid="class_web_application7_1_1_controllers_1_1_addresses_controller_1ad6cb71cdb2e467061597d4e436f27ca8" kind="function"><name>Edit</name></member>
+    <member refid="class_web_application7_1_1_controllers_1_1_addresses_controller_1aa2906a3d62fb91b35b4f8e9f27e3726c" kind="function"><name>Delete</name></member>
+    <member refid="class_web_application7_1_1_controllers_1_1_addresses_controller_1a4e3e361ec9df411ce22f5f41a5c5b2f1" kind="function"><name>DeleteConfirmed</name></member>
+    <member refid="class_web_application7_1_1_controllers_1_1_addresses_controller_1a3db089d7925d63d472446cb2c3fa6484" kind="function"><name>Dispose</name></member>
+  </compound>
+  <compound refid="class_web_application7_1_1_bundle_config" kind="class"><name>WebApplication7::BundleConfig</name>
+    <member refid="class_web_application7_1_1_bundle_config_1ac544d846aa711333f2899e6cda5d8f65" kind="function"><name>RegisterBundles</name></member>
+  </compound>
+  <compound refid="class_web_application7_1_1_models_1_1_customer" kind="class"><name>WebApplication7::Models::Customer</name>
+    <member refid="class_web_application7_1_1_models_1_1_customer_1a379e6da7b5778dfb779ea816ed9679db" kind="property"><name>CPF</name></member>
+    <member refid="class_web_application7_1_1_models_1_1_customer_1ae39b92762ff2945d8eba6c01364ab2fd" kind="property"><name>Date</name></member>
+    <member refid="class_web_application7_1_1_models_1_1_customer_1ae317ef83812d656645279b815c71b1db" kind="property"><name>Id</name></member>
+    <member refid="class_web_application7_1_1_models_1_1_customer_1a5928aca677becf88dca982700e1114ad" kind="property"><name>LinkFacebook</name></member>
+    <member refid="class_web_application7_1_1_models_1_1_customer_1a5a9b2c563453f35afe5eef03cab12c19" kind="property"><name>LinkInstagram</name></member>
+    <member refid="class_web_application7_1_1_models_1_1_customer_1a830fec9691dc8b97aed4ada9f0e04437" kind="property"><name>LinkLinkedin</name></member>
+    <member refid="class_web_application7_1_1_models_1_1_customer_1a16efd86dd507a9f540d383baa6a49f76" kind="property"><name>LinkTwitter</name></member>
+    <member refid="class_web_application7_1_1_models_1_1_customer_1ab07161f1e2f7846dd692efb42695c3ad" kind="property"><name>Name</name></member>
+    <member refid="class_web_application7_1_1_models_1_1_customer_1adb10c528183dcc631bea7b540f5cce1e" kind="property"><name>RG</name></member>
+    <member refid="class_web_application7_1_1_models_1_1_customer_1a18223269e976062976463afd5d07b240" kind="property"><name>Addresses</name></member>
+    <member refid="class_web_application7_1_1_models_1_1_customer_1a277122b7d9903c92c297767e0ad116e1" kind="property"><name>Phones</name></member>
+    <member refid="class_web_application7_1_1_models_1_1_customer_1a3961c3e6ca973edfd5bb0f1505a9fd47" kind="function"><name>Customer</name></member>
+  </compound>
+  <compound refid="class_web_application7_1_1_controllers_1_1_customers_controller" kind="class"><name>WebApplication7::Controllers::CustomersController</name>
+    <member refid="class_web_application7_1_1_controllers_1_1_customers_controller_1ae7f552a473f40317f9bf6785ed35d323" kind="variable"><name>db</name></member>
+    <member refid="class_web_application7_1_1_controllers_1_1_customers_controller_1af1197ad348ed00b84d9cac0575697d09" kind="function"><name>Index</name></member>
+    <member refid="class_web_application7_1_1_controllers_1_1_customers_controller_1a81f50f6898fee97522e9ee575341ccf0" kind="function"><name>Details</name></member>
+    <member refid="class_web_application7_1_1_controllers_1_1_customers_controller_1abef2cce24f249104011b52dae6665ffd" kind="function"><name>Find</name></member>
+    <member refid="class_web_application7_1_1_controllers_1_1_customers_controller_1a82dcbbf6de5d55181586437c0ae1ee4a" kind="function"><name>Create</name></member>
+    <member refid="class_web_application7_1_1_controllers_1_1_customers_controller_1ae62d679054af6046df888a64f9671aba" kind="function"><name>Create</name></member>
+    <member refid="class_web_application7_1_1_controllers_1_1_customers_controller_1a549c079de495b3cdebd8c42748b64b64" kind="function"><name>Edit</name></member>
+    <member refid="class_web_application7_1_1_controllers_1_1_customers_controller_1a24359c46428e1458a3049ec238696fa8" kind="function"><name>Edit</name></member>
+    <member refid="class_web_application7_1_1_controllers_1_1_customers_controller_1af637caad57da34cf240cff709d78a22f" kind="function"><name>Delete</name></member>
+    <member refid="class_web_application7_1_1_controllers_1_1_customers_controller_1aa9e538f02d908e5cb1c264e665649270" kind="function"><name>DeleteConfirmed</name></member>
+    <member refid="class_web_application7_1_1_controllers_1_1_customers_controller_1a96f345e5209c59a07e1c8e556aa4cdf0" kind="function"><name>Dispose</name></member>
+  </compound>
+  <compound refid="class_web_application7_1_1_filter_config" kind="class"><name>WebApplication7::FilterConfig</name>
+    <member refid="class_web_application7_1_1_filter_config_1a559d67991cde4ffd51b943fc5ed2b97d" kind="function"><name>RegisterGlobalFilters</name></member>
+  </compound>
+  <compound refid="class_web_application7_1_1_models_1_1_model1" kind="class"><name>WebApplication7::Models::Model1</name>
+    <member refid="class_web_application7_1_1_models_1_1_model1_1a02e9d7e3ffa3016948a87b4c5f99ec0a" kind="property"><name>Addresses</name></member>
+    <member refid="class_web_application7_1_1_models_1_1_model1_1a2ff40b7f38b21706ddc1c1b72152f41d" kind="property"><name>Customers</name></member>
+    <member refid="class_web_application7_1_1_models_1_1_model1_1a3b16cfdd9ae0ee1addda7876ec76fc30" kind="property"><name>Phones</name></member>
+    <member refid="class_web_application7_1_1_models_1_1_model1_1a211a2a16a9216f4a44df4ad3d0643021" kind="function"><name>Model1</name></member>
+    <member refid="class_web_application7_1_1_models_1_1_model1_1afe73e63de87057a3daa7fbd950720373" kind="function"><name>OnModelCreating</name></member>
+  </compound>
+  <compound refid="class_web_application7_1_1_mvc_application" kind="class"><name>WebApplication7::MvcApplication</name>
+    <member refid="class_web_application7_1_1_mvc_application_1a1dcf410827519a969cea3ff1a981aad0" kind="function"><name>Application_Start</name></member>
+  </compound>
+  <compound refid="class_web_application7_1_1_models_1_1_phone" kind="class"><name>WebApplication7::Models::Phone</name>
+    <member refid="class_web_application7_1_1_models_1_1_phone_1a3d39a0f52f526a0ea114f1f46ac7ffba" kind="property"><name>IDPhone</name></member>
+    <member refid="class_web_application7_1_1_models_1_1_phone_1aa5a9aab9c4763c56380d7795f1eca5a7" kind="property"><name>CPFCustomer</name></member>
+    <member refid="class_web_application7_1_1_models_1_1_phone_1a6fd159b3bad2196beab6e6c695ed6203" kind="property"><name>IsPrivate</name></member>
+    <member refid="class_web_application7_1_1_models_1_1_phone_1aa572890912f634db15f42a0a78c226d6" kind="property"><name>NamePhone</name></member>
+    <member refid="class_web_application7_1_1_models_1_1_phone_1ac40af794a47ed732c08eb1e8f27e0ba6" kind="property"><name>PhoneNumber</name></member>
+    <member refid="class_web_application7_1_1_models_1_1_phone_1a1d7aed1a5862a7f459bac91c104bdc99" kind="property"><name>Customer</name></member>
+  </compound>
+  <compound refid="class_web_application7_1_1_controllers_1_1_phones_controller" kind="class"><name>WebApplication7::Controllers::PhonesController</name>
+    <member refid="class_web_application7_1_1_controllers_1_1_phones_controller_1af07a6b0467de5e946afe78dc4fe02927" kind="variable"><name>db</name></member>
+    <member refid="class_web_application7_1_1_controllers_1_1_phones_controller_1adb0a74b791eb3f40ac1d18f52f5a2860" kind="function"><name>Index</name></member>
+    <member refid="class_web_application7_1_1_controllers_1_1_phones_controller_1a43d307880c365e5051ce7421e8e969a4" kind="function"><name>Details</name></member>
+    <member refid="class_web_application7_1_1_controllers_1_1_phones_controller_1a7d59396256cffa21888a3400c120c46c" kind="function"><name>Create</name></member>
+    <member refid="class_web_application7_1_1_controllers_1_1_phones_controller_1a5db9da5ab2dabacd3c4b7d185547983a" kind="function"><name>Create</name></member>
+    <member refid="class_web_application7_1_1_controllers_1_1_phones_controller_1a9a17fe9a02a406fa816dc83fea3de078" kind="function"><name>Edit</name></member>
+    <member refid="class_web_application7_1_1_controllers_1_1_phones_controller_1a8711a23ceda73240b95e00ab389f1e54" kind="function"><name>Edit</name></member>
+    <member refid="class_web_application7_1_1_controllers_1_1_phones_controller_1a01909fb41bab828ec31de636496d40fc" kind="function"><name>Delete</name></member>
+    <member refid="class_web_application7_1_1_controllers_1_1_phones_controller_1a9dce8f6ffbd0e27dd8e1ced906870953" kind="function"><name>DeleteConfirmed</name></member>
+    <member refid="class_web_application7_1_1_controllers_1_1_phones_controller_1ace048c4682d86afb625e45c0c8d7292a" kind="function"><name>Dispose</name></member>
+  </compound>
+  <compound refid="class_web_application7_1_1_route_config" kind="class"><name>WebApplication7::RouteConfig</name>
+    <member refid="class_web_application7_1_1_route_config_1a4a1464649d921189be50c5cbc0e348db" kind="function"><name>RegisterRoutes</name></member>
+  </compound>
+  <compound refid="namespace_paged_list" kind="namespace"><name>PagedList</name>
+  </compound>
+  <compound refid="namespace_system" kind="namespace"><name>System</name>
+  </compound>
+  <compound refid="namespace_system_1_1_collections_1_1_generic" kind="namespace"><name>System::Collections::Generic</name>
+  </compound>
+  <compound refid="namespace_system_1_1_component_model_1_1_data_annotations" kind="namespace"><name>System::ComponentModel::DataAnnotations</name>
+  </compound>
+  <compound refid="namespace_system_1_1_component_model_1_1_data_annotations_1_1_schema" kind="namespace"><name>System::ComponentModel::DataAnnotations::Schema</name>
+  </compound>
+  <compound refid="namespace_system_1_1_data" kind="namespace"><name>System::Data</name>
+  </compound>
+  <compound refid="namespace_system_1_1_data_1_1_entity" kind="namespace"><name>System::Data::Entity</name>
+  </compound>
+  <compound refid="namespace_system_1_1_data_1_1_entity_1_1_spatial" kind="namespace"><name>System::Data::Entity::Spatial</name>
+  </compound>
+  <compound refid="namespace_system_1_1_linq" kind="namespace"><name>System::Linq</name>
+  </compound>
+  <compound refid="namespace_system_1_1_net" kind="namespace"><name>System::Net</name>
+  </compound>
+  <compound refid="namespace_system_1_1_reflection" kind="namespace"><name>System::Reflection</name>
+  </compound>
+  <compound refid="namespace_system_1_1_runtime_1_1_compiler_services" kind="namespace"><name>System::Runtime::CompilerServices</name>
+  </compound>
+  <compound refid="namespace_system_1_1_runtime_1_1_interop_services" kind="namespace"><name>System::Runtime::InteropServices</name>
+  </compound>
+  <compound refid="namespace_system_1_1_web" kind="namespace"><name>System::Web</name>
+  </compound>
+  <compound refid="namespace_system_1_1_web_1_1_mvc" kind="namespace"><name>System::Web::Mvc</name>
+  </compound>
+  <compound refid="namespace_system_1_1_web_1_1_optimization" kind="namespace"><name>System::Web::Optimization</name>
+  </compound>
+  <compound refid="namespace_system_1_1_web_1_1_routing" kind="namespace"><name>System::Web::Routing</name>
+  </compound>
+  <compound refid="namespace_web_application7" kind="namespace"><name>WebApplication7</name>
+  </compound>
+  <compound refid="namespace_web_application7_1_1_controllers" kind="namespace"><name>WebApplication7::Controllers</name>
+  </compound>
+  <compound refid="namespace_web_application7_1_1_models" kind="namespace"><name>WebApplication7::Models</name>
+  </compound>
+  <compound refid="_bundle_config_8cs" kind="file"><name>BundleConfig.cs</name>
+  </compound>
+  <compound refid="_filter_config_8cs" kind="file"><name>FilterConfig.cs</name>
+  </compound>
+  <compound refid="_route_config_8cs" kind="file"><name>RouteConfig.cs</name>
+  </compound>
+  <compound refid="_addresses_controller_8cs" kind="file"><name>AddressesController.cs</name>
+  </compound>
+  <compound refid="_customers_controller_8cs" kind="file"><name>CustomersController.cs</name>
+  </compound>
+  <compound refid="_phones_controller_8cs" kind="file"><name>PhonesController.cs</name>
+  </compound>
+  <compound refid="_global_8asax_8cs" kind="file"><name>Global.asax.cs</name>
+  </compound>
+  <compound refid="_address_8cs" kind="file"><name>Address.cs</name>
+  </compound>
+  <compound refid="_customer_8cs" kind="file"><name>Customer.cs</name>
+  </compound>
+  <compound refid="_model1_8cs" kind="file"><name>Model1.cs</name>
+  </compound>
+  <compound refid="_phone_8cs" kind="file"><name>Phone.cs</name>
+  </compound>
+  <compound refid="_temporary_generated_file__036_c0_b5_b-1481-4323-8_d20-8_f5_a_d_c_b23_d92_8cs" kind="file"><name>TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs</name>
+  </compound>
+  <compound refid="_temporary_generated_file__5937a670-0e60-4077-877b-f7221da3dda1_8cs" kind="file"><name>TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs</name>
+  </compound>
+  <compound refid="_temporary_generated_file___e7_a71_f73-0_f8_d-4_b9_b-_b56_e-8_e70_b10_b_c5_d3_8cs" kind="file"><name>TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs</name>
+  </compound>
+  <compound refid="_assembly_info_8cs" kind="file"><name>AssemblyInfo.cs</name>
+  </compound>
+  <compound refid="dir_badb1e0a6719b0eac5873e7575c6367a" kind="dir"><name>D:/Documents/GitHub/Challenge_D1/WebApplication7/WebApplication7/App_Start</name>
+  </compound>
+  <compound refid="dir_f1e231c396d6a78f925b250f39acb3ba" kind="dir"><name>D:/Documents/GitHub/Challenge_D1/WebApplication7/WebApplication7/Controllers</name>
+  </compound>
+  <compound refid="dir_a71c3b2ad23b9ff58220dd012d201987" kind="dir"><name>D:/Documents/GitHub/Challenge_D1/WebApplication7/WebApplication7/obj/Debug</name>
+  </compound>
+  <compound refid="dir_22305cb0964bbe63c21991dd2265ce48" kind="dir"><name>D:/Documents/GitHub/Challenge_D1/WebApplication7/WebApplication7/Models</name>
+  </compound>
+  <compound refid="dir_43724e81dd40e09f32417973865cdd64" kind="dir"><name>D:/Documents/GitHub/Challenge_D1/WebApplication7/WebApplication7/obj</name>
+  </compound>
+  <compound refid="dir_d051c76eebdc544d9c3d734575641c72" kind="dir"><name>D:/Documents/GitHub/Challenge_D1/WebApplication7/WebApplication7/Properties</name>
+  </compound>
+</doxygenindex>

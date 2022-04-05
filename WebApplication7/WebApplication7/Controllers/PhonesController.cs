@@ -69,7 +69,7 @@ namespace WebApplication7.Controllers
         // GET: Phones/Create
         public ActionResult Create()
         {
-            ViewBag.CPFCustomer = new SelectList(db.Customers, "CPF", "Date");
+            ViewBag.CPFCustomer = new SelectList(db.Customers, "CPF", "Name");
             return View();
         }
 
@@ -92,7 +92,7 @@ namespace WebApplication7.Controllers
                 return RedirectToAction("Index");
             }
 
-            ViewBag.CPFCustomer = new SelectList(db.Customers, "CPF", "Date", phone.CPFCustomer);
+            ViewBag.CPFCustomer = new SelectList(db.Customers, "CPF", "Name", phone.CPFCustomer);
             return View(phone);
         }
 
@@ -113,7 +113,7 @@ namespace WebApplication7.Controllers
             {
                 return HttpNotFound();
             }
-            ViewBag.CPFCustomer = new SelectList(db.Customers, "CPF", "Date", phone.CPFCustomer);
+            ViewBag.CPFCustomer = new SelectList(db.Customers, "CPF", "Name", phone.CPFCustomer);
             return View(phone);
         }
 
@@ -135,7 +135,7 @@ namespace WebApplication7.Controllers
                 db.SaveChanges();
                 return RedirectToAction("Index");
             }
-            ViewBag.CPFCustomer = new SelectList(db.Customers, "CPF", "Date", phone.CPFCustomer);
+            ViewBag.CPFCustomer = new SelectList(db.Customers, "CPF", "Name", phone.CPFCustomer);
             return View(phone);
         }
 

@@ -1,0 +1,334 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="en-US">
+  <compounddef id="class_web_application7_1_1_controllers_1_1_phones_controller" kind="class" language="C#" prot="public">
+    <compoundname>WebApplication7::Controllers::PhonesController</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Controller</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_web_application7_1_1_controllers_1_1_phones_controller_1af07a6b0467de5e946afe78dc4fe02927" prot="private" static="no" mutable="no">
+        <type><ref refid="class_web_application7_1_1_models_1_1_model1" kindref="compound">Model1</ref></type>
+        <definition>Model1 WebApplication7.Controllers.PhonesController.db</definition>
+        <argsstring></argsstring>
+        <name>db</name>
+        <qualifiedname>WebApplication7.Controllers.PhonesController.db</qualifiedname>
+        <initializer>= new <ref refid="class_web_application7_1_1_models_1_1_model1" kindref="compound">Model1</ref>()</initializer>
+        <briefdescription>
+<para>Set context Model1 </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Documents/GitHub/Challenge_D1/WebApplication7/WebApplication7/Controllers/PhonesController.cs" line="21" column="24" bodyfile="D:/Documents/GitHub/Challenge_D1/WebApplication7/WebApplication7/Controllers/PhonesController.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_web_application7_1_1_controllers_1_1_phones_controller_1adb0a74b791eb3f40ac1d18f52f5a2860" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ActionResult</type>
+        <definition>ActionResult WebApplication7.Controllers.PhonesController.Index</definition>
+        <argsstring>(string cpf)</argsstring>
+        <name>Index</name>
+        <qualifiedname>WebApplication7.Controllers.PhonesController.Index</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>cpf</declname>
+        </param>
+        <briefdescription>
+<para>Controller index phone screen </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Phones list</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Documents/GitHub/Challenge_D1/WebApplication7/WebApplication7/Controllers/PhonesController.cs" line="28" column="29" bodyfile="D:/Documents/GitHub/Challenge_D1/WebApplication7/WebApplication7/Controllers/PhonesController.cs" bodystart="28" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="class_web_application7_1_1_controllers_1_1_phones_controller_1a43d307880c365e5051ce7421e8e969a4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ActionResult</type>
+        <definition>ActionResult WebApplication7.Controllers.PhonesController.Details</definition>
+        <argsstring>(int? id)</argsstring>
+        <name>Details</name>
+        <qualifiedname>WebApplication7.Controllers.PhonesController.Details</qualifiedname>
+        <param>
+          <type>int?</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+<para>Controler details phone screen </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>PrimaryKey</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>A phone infos</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Documents/GitHub/Challenge_D1/WebApplication7/WebApplication7/Controllers/PhonesController.cs" line="50" column="29" bodyfile="D:/Documents/GitHub/Challenge_D1/WebApplication7/WebApplication7/Controllers/PhonesController.cs" bodystart="50" bodyend="62"/>
+      </memberdef>
+      <memberdef kind="function" id="class_web_application7_1_1_controllers_1_1_phones_controller_1a7d59396256cffa21888a3400c120c46c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ActionResult</type>
+        <definition>ActionResult WebApplication7.Controllers.PhonesController.Create</definition>
+        <argsstring>()</argsstring>
+        <name>Create</name>
+        <qualifiedname>WebApplication7.Controllers.PhonesController.Create</qualifiedname>
+        <briefdescription>
+<para>Controller create phone screen </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>address</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>value address</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>address</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Documents/GitHub/Challenge_D1/WebApplication7/WebApplication7/Controllers/PhonesController.cs" line="70" column="29" bodyfile="D:/Documents/GitHub/Challenge_D1/WebApplication7/WebApplication7/Controllers/PhonesController.cs" bodystart="70" bodyend="74"/>
+      </memberdef>
+      <memberdef kind="function" id="class_web_application7_1_1_controllers_1_1_phones_controller_1a5db9da5ab2dabacd3c4b7d185547983a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ActionResult</type>
+        <definition>ActionResult WebApplication7.Controllers.PhonesController.Create</definition>
+        <argsstring>([Bind(Include=&quot;IDPhone,CPFCustomer,IsPrivate,NamePhone,PhoneNumber&quot;)] Phone phone)</argsstring>
+        <name>Create</name>
+        <qualifiedname>WebApplication7.Controllers.PhonesController.Create</qualifiedname>
+        <param>
+          <attributes>[Bind(Include=&quot;IDPhone,CPFCustomer,IsPrivate,NamePhone,PhoneNumber&quot;)]</attributes>
+          <type><ref refid="class_web_application7_1_1_models_1_1_phone" kindref="compound">Phone</ref></type>
+          <declname>phone</declname>
+        </param>
+        <briefdescription>
+<para>Controller validade create phone screen </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>address</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>value address</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>address</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Documents/GitHub/Challenge_D1/WebApplication7/WebApplication7/Controllers/PhonesController.cs" line="86" column="29" bodyfile="D:/Documents/GitHub/Challenge_D1/WebApplication7/WebApplication7/Controllers/PhonesController.cs" bodystart="86" bodyend="97"/>
+      </memberdef>
+      <memberdef kind="function" id="class_web_application7_1_1_controllers_1_1_phones_controller_1a9a17fe9a02a406fa816dc83fea3de078" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ActionResult</type>
+        <definition>ActionResult WebApplication7.Controllers.PhonesController.Edit</definition>
+        <argsstring>(int? id)</argsstring>
+        <name>Edit</name>
+        <qualifiedname>WebApplication7.Controllers.PhonesController.Edit</qualifiedname>
+        <param>
+          <type>int?</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+<para>Controller edit phone screen </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>PrimaryKey</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Screen for edition infos</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Documents/GitHub/Challenge_D1/WebApplication7/WebApplication7/Controllers/PhonesController.cs" line="105" column="29" bodyfile="D:/Documents/GitHub/Challenge_D1/WebApplication7/WebApplication7/Controllers/PhonesController.cs" bodystart="105" bodyend="118"/>
+      </memberdef>
+      <memberdef kind="function" id="class_web_application7_1_1_controllers_1_1_phones_controller_1a8711a23ceda73240b95e00ab389f1e54" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ActionResult</type>
+        <definition>ActionResult WebApplication7.Controllers.PhonesController.Edit</definition>
+        <argsstring>([Bind(Include=&quot;IDPhone,CPFCustomer,IsPrivate,NamePhone,PhoneNumber&quot;)] Phone phone)</argsstring>
+        <name>Edit</name>
+        <qualifiedname>WebApplication7.Controllers.PhonesController.Edit</qualifiedname>
+        <param>
+          <attributes>[Bind(Include=&quot;IDPhone,CPFCustomer,IsPrivate,NamePhone,PhoneNumber&quot;)]</attributes>
+          <type><ref refid="class_web_application7_1_1_models_1_1_phone" kindref="compound">Phone</ref></type>
+          <declname>phone</declname>
+        </param>
+        <briefdescription>
+<para>Controller validate edit phone screen </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>address</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Addresses list updated</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Documents/GitHub/Challenge_D1/WebApplication7/WebApplication7/Controllers/PhonesController.cs" line="130" column="29" bodyfile="D:/Documents/GitHub/Challenge_D1/WebApplication7/WebApplication7/Controllers/PhonesController.cs" bodystart="130" bodyend="140"/>
+      </memberdef>
+      <memberdef kind="function" id="class_web_application7_1_1_controllers_1_1_phones_controller_1a01909fb41bab828ec31de636496d40fc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ActionResult</type>
+        <definition>ActionResult WebApplication7.Controllers.PhonesController.Delete</definition>
+        <argsstring>(int? id)</argsstring>
+        <name>Delete</name>
+        <qualifiedname>WebApplication7.Controllers.PhonesController.Delete</qualifiedname>
+        <param>
+          <type>int?</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+<para>Controller delete address screen </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>PrimaryKey</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>validate phone</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Documents/GitHub/Challenge_D1/WebApplication7/WebApplication7/Controllers/PhonesController.cs" line="148" column="29" bodyfile="D:/Documents/GitHub/Challenge_D1/WebApplication7/WebApplication7/Controllers/PhonesController.cs" bodystart="148" bodyend="160"/>
+      </memberdef>
+      <memberdef kind="function" id="class_web_application7_1_1_controllers_1_1_phones_controller_1a9dce8f6ffbd0e27dd8e1ced906870953" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ActionResult</type>
+        <definition>ActionResult WebApplication7.Controllers.PhonesController.DeleteConfirmed</definition>
+        <argsstring>(int id)</argsstring>
+        <name>DeleteConfirmed</name>
+        <qualifiedname>WebApplication7.Controllers.PhonesController.DeleteConfirmed</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+<para>Controller validade delete phone screen </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>PrimaryKey</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Phone list updated</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Documents/GitHub/Challenge_D1/WebApplication7/WebApplication7/Controllers/PhonesController.cs" line="170" column="29" bodyfile="D:/Documents/GitHub/Challenge_D1/WebApplication7/WebApplication7/Controllers/PhonesController.cs" bodystart="170" bodyend="176"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_web_application7_1_1_controllers_1_1_phones_controller_1ace048c4682d86afb625e45c0c8d7292a" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void WebApplication7.Controllers.PhonesController.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>WebApplication7.Controllers.PhonesController.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+<para>Dispose object db </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>disposing</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>dispose confirmed.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Documents/GitHub/Challenge_D1/WebApplication7/WebApplication7/Controllers/PhonesController.cs" line="182" column="33" bodyfile="D:/Documents/GitHub/Challenge_D1/WebApplication7/WebApplication7/Controllers/PhonesController.cs" bodystart="182" bodyend="189"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Controller for manipulations in table Phone </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Controller</label>
+      </node>
+      <node id="1">
+        <label>WebApplication7.Controllers.PhonesController</label>
+        <link refid="class_web_application7_1_1_controllers_1_1_phones_controller"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Controller</label>
+      </node>
+      <node id="1">
+        <label>WebApplication7.Controllers.PhonesController</label>
+        <link refid="class_web_application7_1_1_controllers_1_1_phones_controller"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Documents/GitHub/Challenge_D1/WebApplication7/WebApplication7/Controllers/PhonesController.cs" line="16" column="11" bodyfile="D:/Documents/GitHub/Challenge_D1/WebApplication7/WebApplication7/Controllers/PhonesController.cs" bodystart="17" bodyend="190"/>
+    <listofallmembers>
+      <member refid="class_web_application7_1_1_controllers_1_1_phones_controller_1a7d59396256cffa21888a3400c120c46c" prot="public" virt="non-virtual"><scope>WebApplication7::Controllers::PhonesController</scope><name>Create</name></member>
+      <member refid="class_web_application7_1_1_controllers_1_1_phones_controller_1a5db9da5ab2dabacd3c4b7d185547983a" prot="public" virt="non-virtual"><scope>WebApplication7::Controllers::PhonesController</scope><name>Create</name></member>
+      <member refid="class_web_application7_1_1_controllers_1_1_phones_controller_1af07a6b0467de5e946afe78dc4fe02927" prot="private" virt="non-virtual"><scope>WebApplication7::Controllers::PhonesController</scope><name>db</name></member>
+      <member refid="class_web_application7_1_1_controllers_1_1_phones_controller_1a01909fb41bab828ec31de636496d40fc" prot="public" virt="non-virtual"><scope>WebApplication7::Controllers::PhonesController</scope><name>Delete</name></member>
+      <member refid="class_web_application7_1_1_controllers_1_1_phones_controller_1a9dce8f6ffbd0e27dd8e1ced906870953" prot="public" virt="non-virtual"><scope>WebApplication7::Controllers::PhonesController</scope><name>DeleteConfirmed</name></member>
+      <member refid="class_web_application7_1_1_controllers_1_1_phones_controller_1a43d307880c365e5051ce7421e8e969a4" prot="public" virt="non-virtual"><scope>WebApplication7::Controllers::PhonesController</scope><name>Details</name></member>
+      <member refid="class_web_application7_1_1_controllers_1_1_phones_controller_1ace048c4682d86afb625e45c0c8d7292a" prot="protected" virt="non-virtual"><scope>WebApplication7::Controllers::PhonesController</scope><name>Dispose</name></member>
+      <member refid="class_web_application7_1_1_controllers_1_1_phones_controller_1a9a17fe9a02a406fa816dc83fea3de078" prot="public" virt="non-virtual"><scope>WebApplication7::Controllers::PhonesController</scope><name>Edit</name></member>
+      <member refid="class_web_application7_1_1_controllers_1_1_phones_controller_1a8711a23ceda73240b95e00ab389f1e54" prot="public" virt="non-virtual"><scope>WebApplication7::Controllers::PhonesController</scope><name>Edit</name></member>
+      <member refid="class_web_application7_1_1_controllers_1_1_phones_controller_1adb0a74b791eb3f40ac1d18f52f5a2860" prot="public" virt="non-virtual"><scope>WebApplication7::Controllers::PhonesController</scope><name>Index</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

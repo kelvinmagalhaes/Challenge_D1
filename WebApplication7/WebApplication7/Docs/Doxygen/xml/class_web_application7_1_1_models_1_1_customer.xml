@@ -1,0 +1,198 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="en-US">
+  <compounddef id="class_web_application7_1_1_models_1_1_customer" kind="class" language="C#" prot="public">
+    <compoundname>WebApplication7::Models::Customer</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_web_application7_1_1_models_1_1_customer_1a379e6da7b5778dfb779ea816ed9679db" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string WebApplication7.Models.Customer.CPF</definition>
+        <argsstring></argsstring>
+        <name>CPF</name>
+        <qualifiedname>WebApplication7.Models.Customer.CPF</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Documents/GitHub/Challenge_D1/WebApplication7/WebApplication7/Models/Customer.cs" line="24" column="23" bodyfile="D:/Documents/GitHub/Challenge_D1/WebApplication7/WebApplication7/Models/Customer.cs" bodystart="24" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="property" id="class_web_application7_1_1_models_1_1_customer_1ae39b92762ff2945d8eba6c01364ab2fd" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string WebApplication7.Models.Customer.Date</definition>
+        <argsstring></argsstring>
+        <name>Date</name>
+        <qualifiedname>WebApplication7.Models.Customer.Date</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Documents/GitHub/Challenge_D1/WebApplication7/WebApplication7/Models/Customer.cs" line="26" column="23" bodyfile="D:/Documents/GitHub/Challenge_D1/WebApplication7/WebApplication7/Models/Customer.cs" bodystart="26" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="property" id="class_web_application7_1_1_models_1_1_customer_1ae317ef83812d656645279b815c71b1db" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int WebApplication7.Models.Customer.Id</definition>
+        <argsstring></argsstring>
+        <name>Id</name>
+        <qualifiedname>WebApplication7.Models.Customer.Id</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Documents/GitHub/Challenge_D1/WebApplication7/WebApplication7/Models/Customer.cs" line="28" column="20" bodyfile="D:/Documents/GitHub/Challenge_D1/WebApplication7/WebApplication7/Models/Customer.cs" bodystart="28" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="property" id="class_web_application7_1_1_models_1_1_customer_1a5928aca677becf88dca982700e1114ad" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string WebApplication7.Models.Customer.LinkFacebook</definition>
+        <argsstring></argsstring>
+        <name>LinkFacebook</name>
+        <qualifiedname>WebApplication7.Models.Customer.LinkFacebook</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Documents/GitHub/Challenge_D1/WebApplication7/WebApplication7/Models/Customer.cs" line="30" column="23" bodyfile="D:/Documents/GitHub/Challenge_D1/WebApplication7/WebApplication7/Models/Customer.cs" bodystart="30" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="property" id="class_web_application7_1_1_models_1_1_customer_1a5a9b2c563453f35afe5eef03cab12c19" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string WebApplication7.Models.Customer.LinkInstagram</definition>
+        <argsstring></argsstring>
+        <name>LinkInstagram</name>
+        <qualifiedname>WebApplication7.Models.Customer.LinkInstagram</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Documents/GitHub/Challenge_D1/WebApplication7/WebApplication7/Models/Customer.cs" line="32" column="23" bodyfile="D:/Documents/GitHub/Challenge_D1/WebApplication7/WebApplication7/Models/Customer.cs" bodystart="32" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="property" id="class_web_application7_1_1_models_1_1_customer_1a830fec9691dc8b97aed4ada9f0e04437" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string WebApplication7.Models.Customer.LinkLinkedin</definition>
+        <argsstring></argsstring>
+        <name>LinkLinkedin</name>
+        <qualifiedname>WebApplication7.Models.Customer.LinkLinkedin</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Documents/GitHub/Challenge_D1/WebApplication7/WebApplication7/Models/Customer.cs" line="34" column="23" bodyfile="D:/Documents/GitHub/Challenge_D1/WebApplication7/WebApplication7/Models/Customer.cs" bodystart="34" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="property" id="class_web_application7_1_1_models_1_1_customer_1a16efd86dd507a9f540d383baa6a49f76" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string WebApplication7.Models.Customer.LinkTwitter</definition>
+        <argsstring></argsstring>
+        <name>LinkTwitter</name>
+        <qualifiedname>WebApplication7.Models.Customer.LinkTwitter</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Documents/GitHub/Challenge_D1/WebApplication7/WebApplication7/Models/Customer.cs" line="36" column="23" bodyfile="D:/Documents/GitHub/Challenge_D1/WebApplication7/WebApplication7/Models/Customer.cs" bodystart="36" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="property" id="class_web_application7_1_1_models_1_1_customer_1ab07161f1e2f7846dd692efb42695c3ad" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string WebApplication7.Models.Customer.Name</definition>
+        <argsstring></argsstring>
+        <name>Name</name>
+        <qualifiedname>WebApplication7.Models.Customer.Name</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Documents/GitHub/Challenge_D1/WebApplication7/WebApplication7/Models/Customer.cs" line="38" column="23" bodyfile="D:/Documents/GitHub/Challenge_D1/WebApplication7/WebApplication7/Models/Customer.cs" bodystart="38" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="property" id="class_web_application7_1_1_models_1_1_customer_1adb10c528183dcc631bea7b540f5cce1e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string WebApplication7.Models.Customer.RG</definition>
+        <argsstring></argsstring>
+        <name>RG</name>
+        <qualifiedname>WebApplication7.Models.Customer.RG</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Documents/GitHub/Challenge_D1/WebApplication7/WebApplication7/Models/Customer.cs" line="40" column="23" bodyfile="D:/Documents/GitHub/Challenge_D1/WebApplication7/WebApplication7/Models/Customer.cs" bodystart="40" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="property" id="class_web_application7_1_1_models_1_1_customer_1a18223269e976062976463afd5d07b240" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>ICollection&lt; <ref refid="class_web_application7_1_1_models_1_1_address" kindref="compound">Address</ref> &gt;</type>
+        <definition>virtual ICollection&lt;Address&gt; WebApplication7.Models.Customer.Addresses</definition>
+        <argsstring></argsstring>
+        <name>Addresses</name>
+        <qualifiedname>WebApplication7.Models.Customer.Addresses</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Documents/GitHub/Challenge_D1/WebApplication7/WebApplication7/Models/Customer.cs" line="43" column="36" bodyfile="D:/Documents/GitHub/Challenge_D1/WebApplication7/WebApplication7/Models/Customer.cs" bodystart="43" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="property" id="class_web_application7_1_1_models_1_1_customer_1a277122b7d9903c92c297767e0ad116e1" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>ICollection&lt; <ref refid="class_web_application7_1_1_models_1_1_phone" kindref="compound">Phone</ref> &gt;</type>
+        <definition>virtual ICollection&lt;Phone&gt; WebApplication7.Models.Customer.Phones</definition>
+        <argsstring></argsstring>
+        <name>Phones</name>
+        <qualifiedname>WebApplication7.Models.Customer.Phones</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Documents/GitHub/Challenge_D1/WebApplication7/WebApplication7/Models/Customer.cs" line="46" column="36" bodyfile="D:/Documents/GitHub/Challenge_D1/WebApplication7/WebApplication7/Models/Customer.cs" bodystart="46" bodyend="46"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_web_application7_1_1_models_1_1_customer_1a3961c3e6ca973edfd5bb0f1505a9fd47" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>WebApplication7.Models.Customer.Customer</definition>
+        <argsstring>()</argsstring>
+        <name>Customer</name>
+        <qualifiedname>WebApplication7.Models.Customer.Customer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Documents/GitHub/Challenge_D1/WebApplication7/WebApplication7/Models/Customer.cs" line="16" column="16" bodyfile="D:/Documents/GitHub/Challenge_D1/WebApplication7/WebApplication7/Models/Customer.cs" bodystart="16" bodyend="20"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Definitions for the <ref refid="class_web_application7_1_1_models_1_1_customer" kindref="compound">Customer</ref> table </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Documents/GitHub/Challenge_D1/WebApplication7/WebApplication7/Models/Customer.cs" line="13" column="19" bodyfile="D:/Documents/GitHub/Challenge_D1/WebApplication7/WebApplication7/Models/Customer.cs" bodystart="14" bodyend="47"/>
+    <listofallmembers>
+      <member refid="class_web_application7_1_1_models_1_1_customer_1a18223269e976062976463afd5d07b240" prot="public" virt="non-virtual"><scope>WebApplication7::Models::Customer</scope><name>Addresses</name></member>
+      <member refid="class_web_application7_1_1_models_1_1_customer_1a379e6da7b5778dfb779ea816ed9679db" prot="public" virt="non-virtual"><scope>WebApplication7::Models::Customer</scope><name>CPF</name></member>
+      <member refid="class_web_application7_1_1_models_1_1_customer_1a3961c3e6ca973edfd5bb0f1505a9fd47" prot="public" virt="non-virtual"><scope>WebApplication7::Models::Customer</scope><name>Customer</name></member>
+      <member refid="class_web_application7_1_1_models_1_1_customer_1ae39b92762ff2945d8eba6c01364ab2fd" prot="public" virt="non-virtual"><scope>WebApplication7::Models::Customer</scope><name>Date</name></member>
+      <member refid="class_web_application7_1_1_models_1_1_customer_1ae317ef83812d656645279b815c71b1db" prot="public" virt="non-virtual"><scope>WebApplication7::Models::Customer</scope><name>Id</name></member>
+      <member refid="class_web_application7_1_1_models_1_1_customer_1a5928aca677becf88dca982700e1114ad" prot="public" virt="non-virtual"><scope>WebApplication7::Models::Customer</scope><name>LinkFacebook</name></member>
+      <member refid="class_web_application7_1_1_models_1_1_customer_1a5a9b2c563453f35afe5eef03cab12c19" prot="public" virt="non-virtual"><scope>WebApplication7::Models::Customer</scope><name>LinkInstagram</name></member>
+      <member refid="class_web_application7_1_1_models_1_1_customer_1a830fec9691dc8b97aed4ada9f0e04437" prot="public" virt="non-virtual"><scope>WebApplication7::Models::Customer</scope><name>LinkLinkedin</name></member>
+      <member refid="class_web_application7_1_1_models_1_1_customer_1a16efd86dd507a9f540d383baa6a49f76" prot="public" virt="non-virtual"><scope>WebApplication7::Models::Customer</scope><name>LinkTwitter</name></member>
+      <member refid="class_web_application7_1_1_models_1_1_customer_1ab07161f1e2f7846dd692efb42695c3ad" prot="public" virt="non-virtual"><scope>WebApplication7::Models::Customer</scope><name>Name</name></member>
+      <member refid="class_web_application7_1_1_models_1_1_customer_1a277122b7d9903c92c297767e0ad116e1" prot="public" virt="non-virtual"><scope>WebApplication7::Models::Customer</scope><name>Phones</name></member>
+      <member refid="class_web_application7_1_1_models_1_1_customer_1adb10c528183dcc631bea7b540f5cce1e" prot="public" virt="non-virtual"><scope>WebApplication7::Models::Customer</scope><name>RG</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

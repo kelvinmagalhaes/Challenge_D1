@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="en-US">
+  <compounddef id="namespace_web_application7_1_1_controllers" kind="namespace" language="C#">
+    <compoundname>WebApplication7::Controllers</compoundname>
+    <innerclass refid="class_web_application7_1_1_controllers_1_1_addresses_controller" prot="public">WebApplication7::Controllers::AddressesController</innerclass>
+    <innerclass refid="class_web_application7_1_1_controllers_1_1_customers_controller" prot="public">WebApplication7::Controllers::CustomersController</innerclass>
+    <innerclass refid="class_web_application7_1_1_controllers_1_1_phones_controller" prot="public">WebApplication7::Controllers::PhonesController</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Documents/GitHub/Challenge_D1/WebApplication7/WebApplication7/Controllers/AddressesController.cs" line="7" column="1"/>
+  </compounddef>
+</doxygen>

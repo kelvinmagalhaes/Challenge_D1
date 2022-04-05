@@ -1,0 +1,198 @@
+.TH "WebApplication7.Controllers.PhonesController" 3 "Mon Apr 4 2022" "WebApplication7" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+WebApplication7.Controllers.PhonesController \- Controller for manipulations in table Phone  
+
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits Controller\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "ActionResult \fBIndex\fP (string cpf)"
+.br
+.RI "Controller index phone screen "
+.ti -1c
+.RI "ActionResult \fBDetails\fP (int? id)"
+.br
+.RI "Controler details phone screen "
+.ti -1c
+.RI "ActionResult \fBCreate\fP ()"
+.br
+.RI "Controller create phone screen "
+.ti -1c
+.RI "ActionResult \fBCreate\fP ([Bind(Include='IDPhone,CPFCustomer,IsPrivate,NamePhone,PhoneNumber')] Phone phone)"
+.br
+.RI "Controller validade create phone screen "
+.ti -1c
+.RI "ActionResult \fBEdit\fP (int? id)"
+.br
+.RI "Controller edit phone screen "
+.ti -1c
+.RI "ActionResult \fBEdit\fP ([Bind(Include='IDPhone,CPFCustomer,IsPrivate,NamePhone,PhoneNumber')] Phone phone)"
+.br
+.RI "Controller validate edit phone screen "
+.ti -1c
+.RI "ActionResult \fBDelete\fP (int? id)"
+.br
+.RI "Controller delete address screen "
+.ti -1c
+.RI "ActionResult \fBDeleteConfirmed\fP (int id)"
+.br
+.RI "Controller validade delete phone screen "
+.in -1c
+.SS "Protected Member Functions"
+
+.in +1c
+.ti -1c
+.RI "override void \fBDispose\fP (bool disposing)"
+.br
+.RI "Dispose object db "
+.in -1c
+.SH "Detailed Description"
+.PP 
+Controller for manipulations in table Phone 
+.SH "Member Function Documentation"
+.PP 
+.SS "ActionResult WebApplication7\&.Controllers\&.PhonesController\&.Create ()"
+
+.PP
+Controller create phone screen 
+.PP
+\fBParameters\fP
+.RS 4
+\fIaddress\fP value address
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+address
+.RE
+.PP
+
+.SS "ActionResult WebApplication7\&.Controllers\&.PhonesController\&.Create ([Bind(Include = 'IDPhone,CPFCustomer,IsPrivate,NamePhone,PhoneNumber')] \fBPhone\fP phone)"
+
+.PP
+Controller validade create phone screen 
+.PP
+\fBParameters\fP
+.RS 4
+\fIaddress\fP value address
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+address
+.RE
+.PP
+
+.SS "ActionResult WebApplication7\&.Controllers\&.PhonesController\&.Delete (int? id)"
+
+.PP
+Controller delete address screen 
+.PP
+\fBParameters\fP
+.RS 4
+\fIid\fP PrimaryKey
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+validate phone
+.RE
+.PP
+
+.SS "ActionResult WebApplication7\&.Controllers\&.PhonesController\&.DeleteConfirmed (int id)"
+
+.PP
+Controller validade delete phone screen 
+.PP
+\fBParameters\fP
+.RS 4
+\fIid\fP PrimaryKey
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+Phone list updated
+.RE
+.PP
+
+.SS "ActionResult WebApplication7\&.Controllers\&.PhonesController\&.Details (int? id)"
+
+.PP
+Controler details phone screen 
+.PP
+\fBParameters\fP
+.RS 4
+\fIid\fP PrimaryKey
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+A phone infos
+.RE
+.PP
+
+.SS "override void WebApplication7\&.Controllers\&.PhonesController\&.Dispose (bool disposing)\fC [protected]\fP"
+
+.PP
+Dispose object db 
+.PP
+\fBParameters\fP
+.RS 4
+\fIdisposing\fP dispose confirmed\&.
+.RE
+.PP
+
+.SS "ActionResult WebApplication7\&.Controllers\&.PhonesController\&.Edit ([Bind(Include = 'IDPhone,CPFCustomer,IsPrivate,NamePhone,PhoneNumber')] \fBPhone\fP phone)"
+
+.PP
+Controller validate edit phone screen 
+.PP
+\fBParameters\fP
+.RS 4
+\fIaddress\fP 
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+Addresses list updated
+.RE
+.PP
+
+.SS "ActionResult WebApplication7\&.Controllers\&.PhonesController\&.Edit (int? id)"
+
+.PP
+Controller edit phone screen 
+.PP
+\fBParameters\fP
+.RS 4
+\fIid\fP PrimaryKey
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+Screen for edition infos
+.RE
+.PP
+
+.SS "ActionResult WebApplication7\&.Controllers\&.PhonesController\&.Index (string cpf)"
+
+.PP
+Controller index phone screen 
+.PP
+\fBReturns\fP
+.RS 4
+Phones list
+.RE
+.PP
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for WebApplication7 from the source code\&.

@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="en-US">
+  <compounddef id="class_web_application7_1_1_models_1_1_phone" kind="class" language="C#" prot="public">
+    <compoundname>WebApplication7::Models::Phone</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_web_application7_1_1_models_1_1_phone_1a3d39a0f52f526a0ea114f1f46ac7ffba" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int WebApplication7.Models.Phone.IDPhone</definition>
+        <argsstring></argsstring>
+        <name>IDPhone</name>
+        <qualifiedname>WebApplication7.Models.Phone.IDPhone</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Documents/GitHub/Challenge_D1/WebApplication7/WebApplication7/Models/Phone.cs" line="16" column="20" bodyfile="D:/Documents/GitHub/Challenge_D1/WebApplication7/WebApplication7/Models/Phone.cs" bodystart="16" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="property" id="class_web_application7_1_1_models_1_1_phone_1aa5a9aab9c4763c56380d7795f1eca5a7" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string WebApplication7.Models.Phone.CPFCustomer</definition>
+        <argsstring></argsstring>
+        <name>CPFCustomer</name>
+        <qualifiedname>WebApplication7.Models.Phone.CPFCustomer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Documents/GitHub/Challenge_D1/WebApplication7/WebApplication7/Models/Phone.cs" line="19" column="23" bodyfile="D:/Documents/GitHub/Challenge_D1/WebApplication7/WebApplication7/Models/Phone.cs" bodystart="19" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="property" id="class_web_application7_1_1_models_1_1_phone_1a6fd159b3bad2196beab6e6c695ed6203" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool WebApplication7.Models.Phone.IsPrivate</definition>
+        <argsstring></argsstring>
+        <name>IsPrivate</name>
+        <qualifiedname>WebApplication7.Models.Phone.IsPrivate</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Documents/GitHub/Challenge_D1/WebApplication7/WebApplication7/Models/Phone.cs" line="21" column="21" bodyfile="D:/Documents/GitHub/Challenge_D1/WebApplication7/WebApplication7/Models/Phone.cs" bodystart="21" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="property" id="class_web_application7_1_1_models_1_1_phone_1aa572890912f634db15f42a0a78c226d6" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string WebApplication7.Models.Phone.NamePhone</definition>
+        <argsstring></argsstring>
+        <name>NamePhone</name>
+        <qualifiedname>WebApplication7.Models.Phone.NamePhone</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Documents/GitHub/Challenge_D1/WebApplication7/WebApplication7/Models/Phone.cs" line="23" column="23" bodyfile="D:/Documents/GitHub/Challenge_D1/WebApplication7/WebApplication7/Models/Phone.cs" bodystart="23" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="property" id="class_web_application7_1_1_models_1_1_phone_1ac40af794a47ed732c08eb1e8f27e0ba6" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string WebApplication7.Models.Phone.PhoneNumber</definition>
+        <argsstring></argsstring>
+        <name>PhoneNumber</name>
+        <qualifiedname>WebApplication7.Models.Phone.PhoneNumber</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Documents/GitHub/Challenge_D1/WebApplication7/WebApplication7/Models/Phone.cs" line="25" column="23" bodyfile="D:/Documents/GitHub/Challenge_D1/WebApplication7/WebApplication7/Models/Phone.cs" bodystart="25" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="property" id="class_web_application7_1_1_models_1_1_phone_1a1d7aed1a5862a7f459bac91c104bdc99" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_web_application7_1_1_models_1_1_customer" kindref="compound">Customer</ref></type>
+        <definition>virtual Customer WebApplication7.Models.Phone.Customer</definition>
+        <argsstring></argsstring>
+        <name>Customer</name>
+        <qualifiedname>WebApplication7.Models.Phone.Customer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Documents/GitHub/Challenge_D1/WebApplication7/WebApplication7/Models/Phone.cs" line="27" column="33" bodyfile="D:/Documents/GitHub/Challenge_D1/WebApplication7/WebApplication7/Models/Phone.cs" bodystart="27" bodyend="27"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Definitions for the <ref refid="class_web_application7_1_1_models_1_1_phone" kindref="compound">Phone</ref> table </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Documents/GitHub/Challenge_D1/WebApplication7/WebApplication7/Models/Phone.cs" line="13" column="19" bodyfile="D:/Documents/GitHub/Challenge_D1/WebApplication7/WebApplication7/Models/Phone.cs" bodystart="14" bodyend="28"/>
+    <listofallmembers>
+      <member refid="class_web_application7_1_1_models_1_1_phone_1aa5a9aab9c4763c56380d7795f1eca5a7" prot="public" virt="non-virtual"><scope>WebApplication7::Models::Phone</scope><name>CPFCustomer</name></member>
+      <member refid="class_web_application7_1_1_models_1_1_phone_1a1d7aed1a5862a7f459bac91c104bdc99" prot="public" virt="non-virtual"><scope>WebApplication7::Models::Phone</scope><name>Customer</name></member>
+      <member refid="class_web_application7_1_1_models_1_1_phone_1a3d39a0f52f526a0ea114f1f46ac7ffba" prot="public" virt="non-virtual"><scope>WebApplication7::Models::Phone</scope><name>IDPhone</name></member>
+      <member refid="class_web_application7_1_1_models_1_1_phone_1a6fd159b3bad2196beab6e6c695ed6203" prot="public" virt="non-virtual"><scope>WebApplication7::Models::Phone</scope><name>IsPrivate</name></member>
+      <member refid="class_web_application7_1_1_models_1_1_phone_1aa572890912f634db15f42a0a78c226d6" prot="public" virt="non-virtual"><scope>WebApplication7::Models::Phone</scope><name>NamePhone</name></member>
+      <member refid="class_web_application7_1_1_models_1_1_phone_1ac40af794a47ed732c08eb1e8f27e0ba6" prot="public" virt="non-virtual"><scope>WebApplication7::Models::Phone</scope><name>PhoneNumber</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

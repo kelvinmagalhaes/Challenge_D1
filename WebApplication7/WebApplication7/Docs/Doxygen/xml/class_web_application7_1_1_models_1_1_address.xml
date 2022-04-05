@@ -1,0 +1,181 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="en-US">
+  <compounddef id="class_web_application7_1_1_models_1_1_address" kind="class" language="C#" prot="public">
+    <compoundname>WebApplication7::Models::Address</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_web_application7_1_1_models_1_1_address_1aec52a91a63beacc9b74432177ecc81ca" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int WebApplication7.Models.Address.IDAddress</definition>
+        <argsstring></argsstring>
+        <name>IDAddress</name>
+        <qualifiedname>WebApplication7.Models.Address.IDAddress</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Documents/GitHub/Challenge_D1/WebApplication7/WebApplication7/Models/Address.cs" line="16" column="20" bodyfile="D:/Documents/GitHub/Challenge_D1/WebApplication7/WebApplication7/Models/Address.cs" bodystart="16" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="property" id="class_web_application7_1_1_models_1_1_address_1ad23aad999dd13a8698cce47eb7bc4a8c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string WebApplication7.Models.Address.CPFCustomer</definition>
+        <argsstring></argsstring>
+        <name>CPFCustomer</name>
+        <qualifiedname>WebApplication7.Models.Address.CPFCustomer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Documents/GitHub/Challenge_D1/WebApplication7/WebApplication7/Models/Address.cs" line="19" column="23" bodyfile="D:/Documents/GitHub/Challenge_D1/WebApplication7/WebApplication7/Models/Address.cs" bodystart="19" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="property" id="class_web_application7_1_1_models_1_1_address_1acf3a2b6dd013d288522f3d7bacc583d3" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string WebApplication7.Models.Address.City</definition>
+        <argsstring></argsstring>
+        <name>City</name>
+        <qualifiedname>WebApplication7.Models.Address.City</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Documents/GitHub/Challenge_D1/WebApplication7/WebApplication7/Models/Address.cs" line="21" column="23" bodyfile="D:/Documents/GitHub/Challenge_D1/WebApplication7/WebApplication7/Models/Address.cs" bodystart="21" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="property" id="class_web_application7_1_1_models_1_1_address_1a0a19a66ad00a240b225d09d6a2de3d27" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string WebApplication7.Models.Address.Country</definition>
+        <argsstring></argsstring>
+        <name>Country</name>
+        <qualifiedname>WebApplication7.Models.Address.Country</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Documents/GitHub/Challenge_D1/WebApplication7/WebApplication7/Models/Address.cs" line="23" column="23" bodyfile="D:/Documents/GitHub/Challenge_D1/WebApplication7/WebApplication7/Models/Address.cs" bodystart="23" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="property" id="class_web_application7_1_1_models_1_1_address_1a4ac53889aac4f1c1ca83dcb3548fbdd9" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string WebApplication7.Models.Address.MoreInfo</definition>
+        <argsstring></argsstring>
+        <name>MoreInfo</name>
+        <qualifiedname>WebApplication7.Models.Address.MoreInfo</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Documents/GitHub/Challenge_D1/WebApplication7/WebApplication7/Models/Address.cs" line="25" column="23" bodyfile="D:/Documents/GitHub/Challenge_D1/WebApplication7/WebApplication7/Models/Address.cs" bodystart="25" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="property" id="class_web_application7_1_1_models_1_1_address_1ad6c4f5adebf54fdb6d251cdeafb62b56" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string WebApplication7.Models.Address.NameAddress</definition>
+        <argsstring></argsstring>
+        <name>NameAddress</name>
+        <qualifiedname>WebApplication7.Models.Address.NameAddress</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Documents/GitHub/Challenge_D1/WebApplication7/WebApplication7/Models/Address.cs" line="27" column="23" bodyfile="D:/Documents/GitHub/Challenge_D1/WebApplication7/WebApplication7/Models/Address.cs" bodystart="27" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="property" id="class_web_application7_1_1_models_1_1_address_1a86bb3e5151da9a18ce9d793720fc7e4d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int WebApplication7.Models.Address.Number</definition>
+        <argsstring></argsstring>
+        <name>Number</name>
+        <qualifiedname>WebApplication7.Models.Address.Number</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Documents/GitHub/Challenge_D1/WebApplication7/WebApplication7/Models/Address.cs" line="29" column="20" bodyfile="D:/Documents/GitHub/Challenge_D1/WebApplication7/WebApplication7/Models/Address.cs" bodystart="29" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="property" id="class_web_application7_1_1_models_1_1_address_1a4b77900508072c47c05c68b876b74636" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string WebApplication7.Models.Address.PostalCode</definition>
+        <argsstring></argsstring>
+        <name>PostalCode</name>
+        <qualifiedname>WebApplication7.Models.Address.PostalCode</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Documents/GitHub/Challenge_D1/WebApplication7/WebApplication7/Models/Address.cs" line="31" column="23" bodyfile="D:/Documents/GitHub/Challenge_D1/WebApplication7/WebApplication7/Models/Address.cs" bodystart="31" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="property" id="class_web_application7_1_1_models_1_1_address_1aa076a83b1cd92523009bb0a88cf66fc2" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string WebApplication7.Models.Address.Region</definition>
+        <argsstring></argsstring>
+        <name>Region</name>
+        <qualifiedname>WebApplication7.Models.Address.Region</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Documents/GitHub/Challenge_D1/WebApplication7/WebApplication7/Models/Address.cs" line="33" column="23" bodyfile="D:/Documents/GitHub/Challenge_D1/WebApplication7/WebApplication7/Models/Address.cs" bodystart="33" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="property" id="class_web_application7_1_1_models_1_1_address_1a530b1b93305313b416f2dcec9f67b25b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string WebApplication7.Models.Address.Street</definition>
+        <argsstring></argsstring>
+        <name>Street</name>
+        <qualifiedname>WebApplication7.Models.Address.Street</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Documents/GitHub/Challenge_D1/WebApplication7/WebApplication7/Models/Address.cs" line="35" column="23" bodyfile="D:/Documents/GitHub/Challenge_D1/WebApplication7/WebApplication7/Models/Address.cs" bodystart="35" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="property" id="class_web_application7_1_1_models_1_1_address_1a23fdd0490e3e71b2f99df2e15bd995be" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_web_application7_1_1_models_1_1_customer" kindref="compound">Customer</ref></type>
+        <definition>virtual Customer WebApplication7.Models.Address.Customer</definition>
+        <argsstring></argsstring>
+        <name>Customer</name>
+        <qualifiedname>WebApplication7.Models.Address.Customer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Documents/GitHub/Challenge_D1/WebApplication7/WebApplication7/Models/Address.cs" line="37" column="33" bodyfile="D:/Documents/GitHub/Challenge_D1/WebApplication7/WebApplication7/Models/Address.cs" bodystart="37" bodyend="37"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Definitions for the <ref refid="class_web_application7_1_1_models_1_1_address" kindref="compound">Address</ref> table </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Documents/GitHub/Challenge_D1/WebApplication7/WebApplication7/Models/Address.cs" line="13" column="19" bodyfile="D:/Documents/GitHub/Challenge_D1/WebApplication7/WebApplication7/Models/Address.cs" bodystart="14" bodyend="38"/>
+    <listofallmembers>
+      <member refid="class_web_application7_1_1_models_1_1_address_1acf3a2b6dd013d288522f3d7bacc583d3" prot="public" virt="non-virtual"><scope>WebApplication7::Models::Address</scope><name>City</name></member>
+      <member refid="class_web_application7_1_1_models_1_1_address_1a0a19a66ad00a240b225d09d6a2de3d27" prot="public" virt="non-virtual"><scope>WebApplication7::Models::Address</scope><name>Country</name></member>
+      <member refid="class_web_application7_1_1_models_1_1_address_1ad23aad999dd13a8698cce47eb7bc4a8c" prot="public" virt="non-virtual"><scope>WebApplication7::Models::Address</scope><name>CPFCustomer</name></member>
+      <member refid="class_web_application7_1_1_models_1_1_address_1a23fdd0490e3e71b2f99df2e15bd995be" prot="public" virt="non-virtual"><scope>WebApplication7::Models::Address</scope><name>Customer</name></member>
+      <member refid="class_web_application7_1_1_models_1_1_address_1aec52a91a63beacc9b74432177ecc81ca" prot="public" virt="non-virtual"><scope>WebApplication7::Models::Address</scope><name>IDAddress</name></member>
+      <member refid="class_web_application7_1_1_models_1_1_address_1a4ac53889aac4f1c1ca83dcb3548fbdd9" prot="public" virt="non-virtual"><scope>WebApplication7::Models::Address</scope><name>MoreInfo</name></member>
+      <member refid="class_web_application7_1_1_models_1_1_address_1ad6c4f5adebf54fdb6d251cdeafb62b56" prot="public" virt="non-virtual"><scope>WebApplication7::Models::Address</scope><name>NameAddress</name></member>
+      <member refid="class_web_application7_1_1_models_1_1_address_1a86bb3e5151da9a18ce9d793720fc7e4d" prot="public" virt="non-virtual"><scope>WebApplication7::Models::Address</scope><name>Number</name></member>
+      <member refid="class_web_application7_1_1_models_1_1_address_1a4b77900508072c47c05c68b876b74636" prot="public" virt="non-virtual"><scope>WebApplication7::Models::Address</scope><name>PostalCode</name></member>
+      <member refid="class_web_application7_1_1_models_1_1_address_1aa076a83b1cd92523009bb0a88cf66fc2" prot="public" virt="non-virtual"><scope>WebApplication7::Models::Address</scope><name>Region</name></member>
+      <member refid="class_web_application7_1_1_models_1_1_address_1a530b1b93305313b416f2dcec9f67b25b" prot="public" virt="non-virtual"><scope>WebApplication7::Models::Address</scope><name>Street</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

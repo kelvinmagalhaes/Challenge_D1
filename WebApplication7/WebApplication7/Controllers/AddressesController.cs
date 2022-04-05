@@ -87,7 +87,7 @@ namespace WebApplication7.Controllers
                 return RedirectToAction("Index");
             }
 
-            ViewBag.CPFCustomer = new SelectList(db.Customers, "CPF", "Date", address.CPFCustomer);
+            ViewBag.CPFCustomer = new SelectList(db.Customers, "CPF", "Name", address.CPFCustomer);
             return View(address);
         }
 
@@ -108,7 +108,7 @@ namespace WebApplication7.Controllers
             {
                 return HttpNotFound();
             }
-            ViewBag.CPFCustomer = new SelectList(db.Customers, "CPF", "Date", address.CPFCustomer);
+            ViewBag.CPFCustomer = new SelectList(db.Customers, "CPF", "Name", address.CPFCustomer);
             return View(address);
         }
 
@@ -130,7 +130,7 @@ namespace WebApplication7.Controllers
                 db.SaveChanges();
                 return RedirectToAction("Index");
             }
-            ViewBag.CPFCustomer = new SelectList(db.Customers, "CPF", "Date", address.CPFCustomer);
+            ViewBag.CPFCustomer = new SelectList(db.Customers, "CPF", "Name", address.CPFCustomer);
             return View(address);
         }
 

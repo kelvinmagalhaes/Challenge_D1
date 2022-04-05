@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="en-US">
+  <compounddef id="namespace_web_application7_1_1_models" kind="namespace" language="C#">
+    <compoundname>WebApplication7::Models</compoundname>
+    <innerclass refid="class_web_application7_1_1_models_1_1_address" prot="public">WebApplication7::Models::Address</innerclass>
+    <innerclass refid="class_web_application7_1_1_models_1_1_customer" prot="public">WebApplication7::Models::Customer</innerclass>
+    <innerclass refid="class_web_application7_1_1_models_1_1_model1" prot="public">WebApplication7::Models::Model1</innerclass>
+    <innerclass refid="class_web_application7_1_1_models_1_1_phone" prot="public">WebApplication7::Models::Phone</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Documents/GitHub/Challenge_D1/WebApplication7/WebApplication7/Models/Address.cs" line="1" column="1"/>
+  </compounddef>
+</doxygen>

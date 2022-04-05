@@ -1,0 +1,389 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="en-US">
+  <compounddef id="class_web_application7_1_1_controllers_1_1_customers_controller" kind="class" language="C#" prot="public">
+    <compoundname>WebApplication7::Controllers::CustomersController</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Controller</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_web_application7_1_1_controllers_1_1_customers_controller_1ae7f552a473f40317f9bf6785ed35d323" prot="private" static="no" mutable="no">
+        <type><ref refid="class_web_application7_1_1_models_1_1_model1" kindref="compound">Model1</ref></type>
+        <definition>Model1 WebApplication7.Controllers.CustomersController.db</definition>
+        <argsstring></argsstring>
+        <name>db</name>
+        <qualifiedname>WebApplication7.Controllers.CustomersController.db</qualifiedname>
+        <initializer>= new <ref refid="class_web_application7_1_1_models_1_1_model1" kindref="compound">Model1</ref>()</initializer>
+        <briefdescription>
+<para>Set context Model1 </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Documents/GitHub/Challenge_D1/WebApplication7/WebApplication7/Controllers/CustomersController.cs" line="19" column="24" bodyfile="D:/Documents/GitHub/Challenge_D1/WebApplication7/WebApplication7/Controllers/CustomersController.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_web_application7_1_1_controllers_1_1_customers_controller_1af1197ad348ed00b84d9cac0575697d09" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ActionResult</type>
+        <definition>ActionResult WebApplication7.Controllers.CustomersController.Index</definition>
+        <argsstring>(string searchString, int? page)</argsstring>
+        <name>Index</name>
+        <qualifiedname>WebApplication7.Controllers.CustomersController.Index</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>searchString</declname>
+        </param>
+        <param>
+          <type>int?</type>
+          <declname>page</declname>
+        </param>
+        <briefdescription>
+<para>Controller index customer screen </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>searchString</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Name search</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>page</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>page index</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Documents/GitHub/Challenge_D1/WebApplication7/WebApplication7/Controllers/CustomersController.cs" line="27" column="29" bodyfile="D:/Documents/GitHub/Challenge_D1/WebApplication7/WebApplication7/Controllers/CustomersController.cs" bodystart="27" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="class_web_application7_1_1_controllers_1_1_customers_controller_1a81f50f6898fee97522e9ee575341ccf0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ActionResult</type>
+        <definition>ActionResult WebApplication7.Controllers.CustomersController.Details</definition>
+        <argsstring>(string id)</argsstring>
+        <name>Details</name>
+        <qualifiedname>WebApplication7.Controllers.CustomersController.Details</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+<para>Controler details customer screen </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>PrimaryKey</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>An customer infos</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Documents/GitHub/Challenge_D1/WebApplication7/WebApplication7/Controllers/CustomersController.cs" line="54" column="29" bodyfile="D:/Documents/GitHub/Challenge_D1/WebApplication7/WebApplication7/Controllers/CustomersController.cs" bodystart="54" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="function" id="class_web_application7_1_1_controllers_1_1_customers_controller_1abef2cce24f249104011b52dae6665ffd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ActionResult</type>
+        <definition>ActionResult WebApplication7.Controllers.CustomersController.Find</definition>
+        <argsstring>(string CPF)</argsstring>
+        <name>Find</name>
+        <qualifiedname>WebApplication7.Controllers.CustomersController.Find</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>CPF</declname>
+        </param>
+        <briefdescription>
+<para>Controler find <linebreak/>
+ </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>CPF</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>PrimaryKey</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Addresses list</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Documents/GitHub/Challenge_D1/WebApplication7/WebApplication7/Controllers/CustomersController.cs" line="73" column="29" bodyfile="D:/Documents/GitHub/Challenge_D1/WebApplication7/WebApplication7/Controllers/CustomersController.cs" bodystart="73" bodyend="85"/>
+      </memberdef>
+      <memberdef kind="function" id="class_web_application7_1_1_controllers_1_1_customers_controller_1a82dcbbf6de5d55181586437c0ae1ee4a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ActionResult</type>
+        <definition>ActionResult WebApplication7.Controllers.CustomersController.Create</definition>
+        <argsstring>()</argsstring>
+        <name>Create</name>
+        <qualifiedname>WebApplication7.Controllers.CustomersController.Create</qualifiedname>
+        <briefdescription>
+<para>Controller validade create address screen </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>customer</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>value address</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>customer</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Documents/GitHub/Challenge_D1/WebApplication7/WebApplication7/Controllers/CustomersController.cs" line="93" column="29" bodyfile="D:/Documents/GitHub/Challenge_D1/WebApplication7/WebApplication7/Controllers/CustomersController.cs" bodystart="93" bodyend="96"/>
+      </memberdef>
+      <memberdef kind="function" id="class_web_application7_1_1_controllers_1_1_customers_controller_1ae62d679054af6046df888a64f9671aba" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ActionResult</type>
+        <definition>ActionResult WebApplication7.Controllers.CustomersController.Create</definition>
+        <argsstring>([Bind(Include=&quot;CPF,Date,Id,LinkFacebook,LinkInstagram,LinkLinkedin,LinkTwitter,Name,RG&quot;)] Customer customer)</argsstring>
+        <name>Create</name>
+        <qualifiedname>WebApplication7.Controllers.CustomersController.Create</qualifiedname>
+        <param>
+          <attributes>[Bind(Include=&quot;CPF,Date,Id,LinkFacebook,LinkInstagram,LinkLinkedin,LinkTwitter,Name,RG&quot;)]</attributes>
+          <type><ref refid="class_web_application7_1_1_models_1_1_customer" kindref="compound">Customer</ref></type>
+          <declname>customer</declname>
+        </param>
+        <briefdescription>
+<para>Controller validade create address screen </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>customer</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>value address</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>customer</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Documents/GitHub/Challenge_D1/WebApplication7/WebApplication7/Controllers/CustomersController.cs" line="108" column="29" bodyfile="D:/Documents/GitHub/Challenge_D1/WebApplication7/WebApplication7/Controllers/CustomersController.cs" bodystart="108" bodyend="118"/>
+      </memberdef>
+      <memberdef kind="function" id="class_web_application7_1_1_controllers_1_1_customers_controller_1a549c079de495b3cdebd8c42748b64b64" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ActionResult</type>
+        <definition>ActionResult WebApplication7.Controllers.CustomersController.Edit</definition>
+        <argsstring>(string id)</argsstring>
+        <name>Edit</name>
+        <qualifiedname>WebApplication7.Controllers.CustomersController.Edit</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+<para>Controller edit customers screen </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>PrimaryKey</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Screen for edition infos</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Documents/GitHub/Challenge_D1/WebApplication7/WebApplication7/Controllers/CustomersController.cs" line="126" column="29" bodyfile="D:/Documents/GitHub/Challenge_D1/WebApplication7/WebApplication7/Controllers/CustomersController.cs" bodystart="126" bodyend="138"/>
+      </memberdef>
+      <memberdef kind="function" id="class_web_application7_1_1_controllers_1_1_customers_controller_1a24359c46428e1458a3049ec238696fa8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ActionResult</type>
+        <definition>ActionResult WebApplication7.Controllers.CustomersController.Edit</definition>
+        <argsstring>([Bind(Include=&quot;CPF,Date,Id,LinkFacebook,LinkInstagram,LinkLinkedin,LinkTwitter,Name,RG&quot;)] Customer customer)</argsstring>
+        <name>Edit</name>
+        <qualifiedname>WebApplication7.Controllers.CustomersController.Edit</qualifiedname>
+        <param>
+          <attributes>[Bind(Include=&quot;CPF,Date,Id,LinkFacebook,LinkInstagram,LinkLinkedin,LinkTwitter,Name,RG&quot;)]</attributes>
+          <type><ref refid="class_web_application7_1_1_models_1_1_customer" kindref="compound">Customer</ref></type>
+          <declname>customer</declname>
+        </param>
+        <briefdescription>
+<para>Controller validate edit customers screen </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>PrimaryKey</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Screen for edition infos</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Documents/GitHub/Challenge_D1/WebApplication7/WebApplication7/Controllers/CustomersController.cs" line="150" column="29" bodyfile="D:/Documents/GitHub/Challenge_D1/WebApplication7/WebApplication7/Controllers/CustomersController.cs" bodystart="150" bodyend="159"/>
+      </memberdef>
+      <memberdef kind="function" id="class_web_application7_1_1_controllers_1_1_customers_controller_1af637caad57da34cf240cff709d78a22f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ActionResult</type>
+        <definition>ActionResult WebApplication7.Controllers.CustomersController.Delete</definition>
+        <argsstring>(string id)</argsstring>
+        <name>Delete</name>
+        <qualifiedname>WebApplication7.Controllers.CustomersController.Delete</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+<para>Controller delete customers screen </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>PrimaryKey</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Customers list updated</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Documents/GitHub/Challenge_D1/WebApplication7/WebApplication7/Controllers/CustomersController.cs" line="167" column="29" bodyfile="D:/Documents/GitHub/Challenge_D1/WebApplication7/WebApplication7/Controllers/CustomersController.cs" bodystart="167" bodyend="179"/>
+      </memberdef>
+      <memberdef kind="function" id="class_web_application7_1_1_controllers_1_1_customers_controller_1aa9e538f02d908e5cb1c264e665649270" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ActionResult</type>
+        <definition>ActionResult WebApplication7.Controllers.CustomersController.DeleteConfirmed</definition>
+        <argsstring>(string id)</argsstring>
+        <name>DeleteConfirmed</name>
+        <qualifiedname>WebApplication7.Controllers.CustomersController.DeleteConfirmed</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+<para>Controller validade delete customers screen </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>PrimaryKey</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Customers list updated</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Documents/GitHub/Challenge_D1/WebApplication7/WebApplication7/Controllers/CustomersController.cs" line="189" column="29" bodyfile="D:/Documents/GitHub/Challenge_D1/WebApplication7/WebApplication7/Controllers/CustomersController.cs" bodystart="189" bodyend="195"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_web_application7_1_1_controllers_1_1_customers_controller_1a96f345e5209c59a07e1c8e556aa4cdf0" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void WebApplication7.Controllers.CustomersController.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>WebApplication7.Controllers.CustomersController.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+<para>Dispose object db </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>disposing</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>dispose confirmed.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Documents/GitHub/Challenge_D1/WebApplication7/WebApplication7/Controllers/CustomersController.cs" line="201" column="33" bodyfile="D:/Documents/GitHub/Challenge_D1/WebApplication7/WebApplication7/Controllers/CustomersController.cs" bodystart="201" bodyend="208"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Controller for manipulations in table Customers </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Controller</label>
+      </node>
+      <node id="1">
+        <label>WebApplication7.Controllers.CustomersController</label>
+        <link refid="class_web_application7_1_1_controllers_1_1_customers_controller"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Controller</label>
+      </node>
+      <node id="1">
+        <label>WebApplication7.Controllers.CustomersController</label>
+        <link refid="class_web_application7_1_1_controllers_1_1_customers_controller"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Documents/GitHub/Challenge_D1/WebApplication7/WebApplication7/Controllers/CustomersController.cs" line="14" column="11" bodyfile="D:/Documents/GitHub/Challenge_D1/WebApplication7/WebApplication7/Controllers/CustomersController.cs" bodystart="15" bodyend="209"/>
+    <listofallmembers>
+      <member refid="class_web_application7_1_1_controllers_1_1_customers_controller_1a82dcbbf6de5d55181586437c0ae1ee4a" prot="public" virt="non-virtual"><scope>WebApplication7::Controllers::CustomersController</scope><name>Create</name></member>
+      <member refid="class_web_application7_1_1_controllers_1_1_customers_controller_1ae62d679054af6046df888a64f9671aba" prot="public" virt="non-virtual"><scope>WebApplication7::Controllers::CustomersController</scope><name>Create</name></member>
+      <member refid="class_web_application7_1_1_controllers_1_1_customers_controller_1ae7f552a473f40317f9bf6785ed35d323" prot="private" virt="non-virtual"><scope>WebApplication7::Controllers::CustomersController</scope><name>db</name></member>
+      <member refid="class_web_application7_1_1_controllers_1_1_customers_controller_1af637caad57da34cf240cff709d78a22f" prot="public" virt="non-virtual"><scope>WebApplication7::Controllers::CustomersController</scope><name>Delete</name></member>
+      <member refid="class_web_application7_1_1_controllers_1_1_customers_controller_1aa9e538f02d908e5cb1c264e665649270" prot="public" virt="non-virtual"><scope>WebApplication7::Controllers::CustomersController</scope><name>DeleteConfirmed</name></member>
+      <member refid="class_web_application7_1_1_controllers_1_1_customers_controller_1a81f50f6898fee97522e9ee575341ccf0" prot="public" virt="non-virtual"><scope>WebApplication7::Controllers::CustomersController</scope><name>Details</name></member>
+      <member refid="class_web_application7_1_1_controllers_1_1_customers_controller_1a96f345e5209c59a07e1c8e556aa4cdf0" prot="protected" virt="non-virtual"><scope>WebApplication7::Controllers::CustomersController</scope><name>Dispose</name></member>
+      <member refid="class_web_application7_1_1_controllers_1_1_customers_controller_1a549c079de495b3cdebd8c42748b64b64" prot="public" virt="non-virtual"><scope>WebApplication7::Controllers::CustomersController</scope><name>Edit</name></member>
+      <member refid="class_web_application7_1_1_controllers_1_1_customers_controller_1a24359c46428e1458a3049ec238696fa8" prot="public" virt="non-virtual"><scope>WebApplication7::Controllers::CustomersController</scope><name>Edit</name></member>
+      <member refid="class_web_application7_1_1_controllers_1_1_customers_controller_1abef2cce24f249104011b52dae6665ffd" prot="public" virt="non-virtual"><scope>WebApplication7::Controllers::CustomersController</scope><name>Find</name></member>
+      <member refid="class_web_application7_1_1_controllers_1_1_customers_controller_1af1197ad348ed00b84d9cac0575697d09" prot="public" virt="non-virtual"><scope>WebApplication7::Controllers::CustomersController</scope><name>Index</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

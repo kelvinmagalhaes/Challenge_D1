@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="en-US">
+  <compounddef id="dir_22305cb0964bbe63c21991dd2265ce48" kind="dir">
+    <compoundname>D:/Documents/GitHub/Challenge_D1/WebApplication7/WebApplication7/Models</compoundname>
+    <innerfile refid="_address_8cs">Address.cs</innerfile>
+    <innerfile refid="_customer_8cs">Customer.cs</innerfile>
+    <innerfile refid="_model1_8cs">Model1.cs</innerfile>
+    <innerfile refid="_phone_8cs">Phone.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Documents/GitHub/Challenge_D1/WebApplication7/WebApplication7/Models/"/>
+  </compounddef>
+</doxygen>

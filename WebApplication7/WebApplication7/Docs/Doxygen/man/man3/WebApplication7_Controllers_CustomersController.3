@@ -1,0 +1,228 @@
+.TH "WebApplication7.Controllers.CustomersController" 3 "Mon Apr 4 2022" "WebApplication7" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+WebApplication7.Controllers.CustomersController \- Controller for manipulations in table Customers  
+
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits Controller\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "ActionResult \fBIndex\fP (string searchString, int? page)"
+.br
+.RI "Controller index customer screen "
+.ti -1c
+.RI "ActionResult \fBDetails\fP (string id)"
+.br
+.RI "Controler details customer screen "
+.ti -1c
+.RI "ActionResult \fBFind\fP (string CPF)"
+.br
+.RI "Controler find 
+.br
+ "
+.ti -1c
+.RI "ActionResult \fBCreate\fP ()"
+.br
+.RI "Controller validade create address screen "
+.ti -1c
+.RI "ActionResult \fBCreate\fP ([Bind(Include='CPF,Date,Id,LinkFacebook,LinkInstagram,LinkLinkedin,LinkTwitter,Name,RG')] Customer customer)"
+.br
+.RI "Controller validade create address screen "
+.ti -1c
+.RI "ActionResult \fBEdit\fP (string id)"
+.br
+.RI "Controller edit customers screen "
+.ti -1c
+.RI "ActionResult \fBEdit\fP ([Bind(Include='CPF,Date,Id,LinkFacebook,LinkInstagram,LinkLinkedin,LinkTwitter,Name,RG')] Customer customer)"
+.br
+.RI "Controller validate edit customers screen "
+.ti -1c
+.RI "ActionResult \fBDelete\fP (string id)"
+.br
+.RI "Controller delete customers screen "
+.ti -1c
+.RI "ActionResult \fBDeleteConfirmed\fP (string id)"
+.br
+.RI "Controller validade delete customers screen "
+.in -1c
+.SS "Protected Member Functions"
+
+.in +1c
+.ti -1c
+.RI "override void \fBDispose\fP (bool disposing)"
+.br
+.RI "Dispose object db "
+.in -1c
+.SH "Detailed Description"
+.PP 
+Controller for manipulations in table Customers 
+.SH "Member Function Documentation"
+.PP 
+.SS "ActionResult WebApplication7\&.Controllers\&.CustomersController\&.Create ()"
+
+.PP
+Controller validade create address screen 
+.PP
+\fBParameters\fP
+.RS 4
+\fIcustomer\fP value address
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+customer
+.RE
+.PP
+
+.SS "ActionResult WebApplication7\&.Controllers\&.CustomersController\&.Create ([Bind(Include = 'CPF,Date,Id,LinkFacebook,LinkInstagram,LinkLinkedin,LinkTwitter,Name,RG')] \fBCustomer\fP customer)"
+
+.PP
+Controller validade create address screen 
+.PP
+\fBParameters\fP
+.RS 4
+\fIcustomer\fP value address
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+customer
+.RE
+.PP
+
+.SS "ActionResult WebApplication7\&.Controllers\&.CustomersController\&.Delete (string id)"
+
+.PP
+Controller delete customers screen 
+.PP
+\fBParameters\fP
+.RS 4
+\fIid\fP PrimaryKey
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+Customers list updated
+.RE
+.PP
+
+.SS "ActionResult WebApplication7\&.Controllers\&.CustomersController\&.DeleteConfirmed (string id)"
+
+.PP
+Controller validade delete customers screen 
+.PP
+\fBParameters\fP
+.RS 4
+\fIid\fP PrimaryKey
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+Customers list updated
+.RE
+.PP
+
+.SS "ActionResult WebApplication7\&.Controllers\&.CustomersController\&.Details (string id)"
+
+.PP
+Controler details customer screen 
+.PP
+\fBParameters\fP
+.RS 4
+\fIid\fP PrimaryKey
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+An customer infos
+.RE
+.PP
+
+.SS "override void WebApplication7\&.Controllers\&.CustomersController\&.Dispose (bool disposing)\fC [protected]\fP"
+
+.PP
+Dispose object db 
+.PP
+\fBParameters\fP
+.RS 4
+\fIdisposing\fP dispose confirmed\&.
+.RE
+.PP
+
+.SS "ActionResult WebApplication7\&.Controllers\&.CustomersController\&.Edit ([Bind(Include = 'CPF,Date,Id,LinkFacebook,LinkInstagram,LinkLinkedin,LinkTwitter,Name,RG')] \fBCustomer\fP customer)"
+
+.PP
+Controller validate edit customers screen 
+.PP
+\fBParameters\fP
+.RS 4
+\fIid\fP PrimaryKey
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+Screen for edition infos
+.RE
+.PP
+
+.SS "ActionResult WebApplication7\&.Controllers\&.CustomersController\&.Edit (string id)"
+
+.PP
+Controller edit customers screen 
+.PP
+\fBParameters\fP
+.RS 4
+\fIid\fP PrimaryKey
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+Screen for edition infos
+.RE
+.PP
+
+.SS "ActionResult WebApplication7\&.Controllers\&.CustomersController\&.Find (string CPF)"
+
+.PP
+Controler find 
+.br
+ 
+.PP
+\fBParameters\fP
+.RS 4
+\fICPF\fP PrimaryKey
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+Addresses list
+.RE
+.PP
+
+.SS "ActionResult WebApplication7\&.Controllers\&.CustomersController\&.Index (string searchString, int? page)"
+
+.PP
+Controller index customer screen 
+.PP
+\fBParameters\fP
+.RS 4
+\fIsearchString\fP Name search
+.br
+\fIpage\fP page index
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+.RE
+.PP
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for WebApplication7 from the source code\&.

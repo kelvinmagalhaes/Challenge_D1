@@ -17,7 +17,7 @@
         </center>
     </p>
 }
-<table class="table" style="width:50%">
+<table class="table">
     <tr>
         <th>
             Name
@@ -29,7 +29,7 @@
             CPF
         </th>
         <th>
-            Id
+            ID
         </th>
         <th>
             Date
@@ -81,30 +81,23 @@
         </td>
         <td>
             <a href="/Phones/Index/@item.CPF" value="@item.CPF" title="Send" class="btn btn-info">
-                <span class="glyphicon glyphicon-phone" aria-hidden="true"></span>
-                
-            </a>
-            <a href="/Addresses/Index/@item.CPF" value="@item.CPF" id="teste" title="Send" class="btn btn-info">
-                <span class="glyphicon glyphicon-home" aria-hidden="true"></span>
-                
-            </a>
+            <span class="glyphicon glyphicon-phone" aria-hidden="true"></span>
 
-            <a href="/Customers/Edit/@item.CPF" title="Send" class="btn btn-info">
-                <span class="glyphicon glyphicon-edit" aria-hidden="true"></span>
-                
-            </a>
+        <a href="/Addresses/Index/@item.CPF" value="@item.CPF" id="teste" title="Send" class="btn btn-info">
+            <span class="glyphicon glyphicon-home" aria-hidden="true"></span>
 
-            <a href="/Customers/Details/@item.CPF" title="Send" class="btn btn-info">
-                <span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>
-         
-            </a>
+
+        <a href="/Customers/Edit/@item.CPF" title="Send" class="btn btn-info">
+            <span class="glyphicon glyphicon-edit" aria-hidden="true"></span>
+
+
+        <a href="/Customers/Details/@item.CPF" title="Send" class="btn btn-info">
+            <span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>
+
 
             <a href="/Customers/Delete/@item.CPF" title="Send" class="btn btn-info">
                 <span class="glyphicon glyphicon-erase" aria-hidden="true"></span>
-                
-            </a>
-
-        </td>
+</td>
     </tr>
     }
 
