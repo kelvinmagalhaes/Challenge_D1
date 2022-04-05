@@ -13,6 +13,6 @@ CRUD WebAppp : [Documentation](https://github.com/kelvinmagalhaes/Challenge_D1/t
 </p>
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/61787709/161667494-90310f7d-fcad-4d37-badc-3715e9e06248.pngraw=true" alt="Sublime's custom image"/>
+  <img src="https://user-images.githubusercontent.com/61787709/161667494-90310f7d-fcad-4d37-badc-3715e9e06248.png?raw=true" alt="Sublime's custom image"/>
 </p>
 
